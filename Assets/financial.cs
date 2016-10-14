@@ -82,6 +82,7 @@ namespace tycoon
 
         //Can add more reasons as needed
         //possible reasons case sensitive CustomerPurchase, UpgradePurchase, StaffWages, ItemsOrdered, OperationalCost, Trade, ItemsExpired, Misc
+        //Need to make sure other classes call this function to store data when needed ( ex customer purchases something)
         public void storeTransaction(int day, int value, string reason)
         {
             if (String.Compare(reason, "StaffWages") == 0)
