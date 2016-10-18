@@ -9,9 +9,9 @@ public class Save : MonoBehaviour {
         BinaryFormatter bf = new BinaryFormatter();
         FileStream file = File.Open(Application.persistentDataPath + "/save.dat", FileMode.Open);
 
-        Object replaceme = new Object(); //REPLACE THIS WITH REAL DATA OBJECT
+        PlayerData data = PlayerData.getInstance(); //REPLACE THIS WITH REAL DATA OBJECT
 
-        bf.Serialize(file, replaceme); // Data obj goes into second param
+        bf.Serialize(file, data); // Data obj goes into second param
         file.Close();
     }
 
@@ -20,7 +20,7 @@ public class Save : MonoBehaviour {
             BinaryFormatter bf = new BinaryFormatter();
             FileStream file = File.Open(Application.persistentDataPath + "/save.dat", FileMode.Open);
 
-            Object replaceme = (Object)bf.Deserialize(file); //REPLACE THIS WITH REAL DATA OBJECT
+            PlayerData data = (PlayerData)bf.Deserialize(file); //REPLACE THIS WITH REAL DATA OBJECT
             file.Close();
         }
     }
