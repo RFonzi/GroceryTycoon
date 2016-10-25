@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Priority_Queue;
 
 // maybe store the customers path in the customer class unless we want to recalculate it several times
 //everyframe go through customer list to get coordinates? only do it for shelves when things change?
@@ -11,6 +12,7 @@ namespace tycoon
     public class Simulation : MonoBehaviour
     {
 
+        public SimplePriorityQueue<int> pqueue = new SimplePriorityQueue<int>();
         public const int COLS = 50;
         public const int ROWS = 50;
         int customerCount = 0;
@@ -27,7 +29,7 @@ namespace tycoon
         // Use this for initialization
         void Start()
         {
-
+           
         }
 
         // Update is called once per frame
@@ -85,7 +87,7 @@ namespace tycoon
             return null;
         }
 
-        //find a shelf based on type
+        //find a shelf based on type [NOTE] SHOULD IT FIND THE CLOSEST SHELF RELATIVE TO A CUSTOMER'S POSITION???????????
         Shelf findShelf(string type)
         {
             Shelf tmp;
