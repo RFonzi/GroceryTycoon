@@ -11,8 +11,8 @@ namespace tycoon
     public class Simulation : MonoBehaviour
     {
 
-        public const float COLS = 50f;
-        public const float ROWS = 50f;
+        public const int COLS = 50;
+        public const int ROWS = 50;
         int customerCount = 0;
         int shelfCount = 0;
 
@@ -64,8 +64,8 @@ namespace tycoon
 
             //sets the initial coordinates of new customers (all will start at the same spot)
             //might need to change specific x / y
-            customer.x = (ROWS/2);
-            customer.y = 0;
+            customer.x = 0;
+            customer.y = (COLS / 2);
             
         }
         //finds the specific shelf and returns it
