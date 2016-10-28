@@ -215,9 +215,9 @@ namespace tycoon
 
         //returns an array of floats with all customer coordinates
         //each row is a different customer, col 0 is x coord, col 1 is y coord
-        public float[,] getCustomerCoordinates()
+        public int[,] getCustomerCoordinates()
         {
-            float[,] customerCoordinatesArray = new float[customerList.Count, 2];
+            int[,] customerCoordinatesArray = new int[customerList.Count, 2];
 
             for (int i = 0; i < customerList.Count; i++)
             {
