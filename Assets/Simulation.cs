@@ -13,12 +13,12 @@ namespace tycoon
     {
 
         public SimplePriorityQueue<int> pqueue = new SimplePriorityQueue<int>();
-        public const int COLS = 50;
-        public const int ROWS = 50;
+        public const int COLS = 12;
+        public const int ROWS = 14;
         int customerCount = 0;
         int shelfCount = 0;
 
-        string[,] Map = new string[50,50];
+        string[,] Map = new string[COLS,ROWS];
 
 
 
@@ -29,7 +29,32 @@ namespace tycoon
         // Use this for initialization
         void Start()
         {
-           
+            //Test floor
+            addShelf(4, 4);
+            addShelf(5, 4);
+            addShelf(6, 4);
+            addShelf(7, 4);
+            addShelf(8, 4);
+
+            addShelf(4, 6);
+            addShelf(5, 6);
+            addShelf(6, 6);
+            addShelf(7, 6);
+            addShelf(8, 6);
+
+            addShelf(4, 7);
+            addShelf(5, 7);
+            addShelf(6, 7);
+            addShelf(7, 7);
+            addShelf(8, 7);
+
+            addShelf(4, 9);
+            addShelf(5, 9);
+            addShelf(6, 9);
+            addShelf(7, 9);
+            addShelf(8, 9);
+
+
         }
 
         // Update is called once per frame
@@ -54,6 +79,26 @@ namespace tycoon
             shelfCount++;
 
             shelvesList.Add(shelf);
+            addShelfMap(shelf.row, shelf.col, shelf);
+        }
+
+        void addShelf(int row, int col) { 
+            //just resets the ID numbers if no shelves
+            if (shelvesList.Count == 0) {
+                shelfCount = 0;
+            }
+
+            Shelf shelf = new Shelf();
+
+            //sets coordinates for shelves
+            shelf.row = row;
+            shelf.col = col;
+
+            shelf.ID = shelfCount;
+            shelfCount++;
+
+            shelvesList.Add(shelf);
+            addShelfMap(shelf.row, shelf.col, shelf);
         }
 
         void addCustomer(Customer customer)
