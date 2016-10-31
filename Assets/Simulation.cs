@@ -243,6 +243,35 @@ namespace tycoon
         {
             Map[row,col] = null;
         }
+         //returns an array of ints with all shelf coordinates
+        //each row is a different shelf, col 0 is x coord, col 1 is y coord
+        public int[,] getShelfCoordinates()
+        {
+            int[,] shelfCoordinatesArray = new int[shelvesList.Count, 2];
+
+            for (int i = 0; i < shelvesList.Count; i++)
+            {
+                Shelf tmp = shelvesList[i];
+                shelfCoordinatesArray[i, 0] = tmp.row;
+                shelfCoordinatesArray[i, 1] = tmp.col;
+            }
+            return shelfCoordinatesArray;
+        }
+
+        //returns an array of floats with all customer coordinates
+        //each row is a different customer, col 0 is x coord, col 1 is y coord
+        public int[,] getCustomerCoordinates()
+        {
+            int[,] customerCoordinatesArray = new int[customerList.Count, 2];
+
+            for (int i = 0; i < customerList.Count; i++)
+            {
+                Customer tmp = customerList[i];
+                customerCoordinatesArray[i, 0] = tmp.x;
+                customerCoordinatesArray[i, 1] = tmp.y;
+            }
+            return customerCoordinatesArray;
+        }
 
     }
 }
