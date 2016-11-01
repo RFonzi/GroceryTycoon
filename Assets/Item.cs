@@ -48,6 +48,7 @@ namespace tycoon {
         }
 
 
+
         //added base price so for networth function in financial
         void setDefaults(Items itemType)
         {

@@ -47,7 +47,7 @@ namespace tycoon
                 inventory.Add(items[i]);
             }
         }
-        
+
         public List<Item> getInventory()
         {
             return inventory;
