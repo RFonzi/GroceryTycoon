@@ -6,8 +6,9 @@ using System.Collections.Generic;
 namespace tycoon {
     public class Customer : MonoBehaviour
     {
-        Item[] storeItems;
-        
+        List<Item>[] storeItems; // where the store inventory is stored
+        double x; // customers x location
+        double y; // customers y location
 
         // Use this for initialization
         void Start()
@@ -20,14 +21,15 @@ namespace tycoon {
         {
 
         }
-        public Customer (Item[] items)
+        public Customer (List<Item>[] items)
         {
             storeItems = items;
         }
 
+        // determines if the customer wants to buy a specific item
         public bool buyItem(Item item)
         {
-            double spread = (item.getSellPrice() - item.getStockPrice());
+            double spread = (item.getSellPrice() - item.getBuyPrice());
             int factor = (int) (spread * 100);
             System.Random random = new System.Random();
             if (factor < 0) // if we had a negative spread (sell price cheaper than buy price)
@@ -47,17 +49,24 @@ namespace tycoon {
             }
         }
 
-        public List<Item> getItemList()
+        // loops through store inventory and figures out what items to buy
+        public List<Item> getShoppingList()
         {
             List<Item> items = new List<Item>();
             for(int i = 0; i < storeItems.Length; i++)
-            {
-                if (buyItem(storeItems[i]))
+            { // [i][0] -- i represents the item type, and 0 is first item in the list, if its null player doesnt have that type of item.
+                if (storeItems[i][0] != null && buyItem(storeItems[i][0]))
                 {
-                    items.Add(storeItems[i]);
+                    items.Add(storeItems[i][0]);
                 }
             }
             return items;
+        }
+
+        public void move(double X, double Y)
+        {
+            x = X;
+            y = Y;
         }
     }
 }

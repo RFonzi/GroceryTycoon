@@ -204,5 +204,10 @@ namespace tycoon {
         {
             return sellPrice;
         }
+        
+        public int getItemID()
+        {
+            return (int)type;
+        }
     }
 }
