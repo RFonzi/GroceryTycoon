@@ -7,8 +7,12 @@ namespace tycoon {
     public class Customer : MonoBehaviour
     {
         List<Item>[] storeItems; // where the store inventory is stored
-        double x; // customers x location
-        double y; // customers y location
+        public int x { get; set; }
+        public int y { get; set; }
+        public int ID { get; set; }
+
+        List<Item> shoppingList = new List<Item>();
+        List<Item> inventory = new List<Item>();
 
         // Use this for initialization
         void Start()
@@ -24,12 +28,15 @@ namespace tycoon {
         public Customer (List<Item>[] items)
         {
             storeItems = items;
+            createShoppingList();
         }
 
         // determines if the customer wants to buy a specific item
         public bool buyItem(Item item)
         {
-            double spread = (item.getSellPrice() - item.getBuyPrice());
+            //cant do buy price, since trades will mess it up
+            //base price doesnt change and is just what the player can pay from in game market
+            double spread = (item.getSellPrice() - item.getBasePrice());
             int factor = (int) (spread * 100);
             System.Random random = new System.Random();
             if (factor < 0) // if we had a negative spread (sell price cheaper than buy price)
@@ -49,24 +56,35 @@ namespace tycoon {
             }
         }
 
-        // loops through store inventory and figures out what items to buy
-        public List<Item> getShoppingList()
+        // loops through store inventory and figures out what items to buy 
+        //stores in shopping list
+        private void createShoppingList()
         {
-            List<Item> items = new List<Item>();
             for(int i = 0; i < storeItems.Length; i++)
             { // [i][0] -- i represents the item type, and 0 is first item in the list, if its null player doesnt have that type of item.
                 if (storeItems[i][0] != null && buyItem(storeItems[i][0]))
                 {
-                    items.Add(storeItems[i][0]);
+                    shoppingList.Add(storeItems[i][0]);
                 }
             }
-            return items;
         }
 
-        public void move(double X, double Y)
+        public List<Item> getShoppingList()
+        {
+            return shoppingList;
+        }
+        public void move(int X, int Y)
         {
             x = X;
             y = Y;
+        }
+        public void addToInventory(Item item)
+        {
+            inventory.Add(item);
+        }
+        public void removeFromInventory(Item item)
+        {
+            inventory.Remove(item);
         }
     }
 }
