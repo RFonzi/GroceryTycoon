@@ -1,10 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using Priority_Queue;
 
-// maybe store the customers path in the customer class unless we want to recalculate it several times
-//everyframe go through customer list to get coordinates? only do it for shelves when things change?
 namespace tycoon
 {
 
@@ -37,12 +34,6 @@ namespace tycoon
             customerCount++;
 
             customerList.Add(customer);
-
-            //sets the initial coordinates of new customers (all will start at the same spot)
-            //might need to change specific x / y
-            customer.x = 0;
-            customer.y = (COLS / 2);
-            
         }
 
         //finds a customer based on id
