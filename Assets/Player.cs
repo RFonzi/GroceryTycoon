@@ -15,6 +15,7 @@ namespace tycoon
                 inventory[i] = new List<Item>();
             }
             customers = new List<Customer>();
+
         }
 
         // Update is called once per frame
@@ -91,3 +92,4 @@ namespace tycoon
         }
     }
 }
+
