@@ -7,8 +7,6 @@ namespace tycoon {
     public class Customer : MonoBehaviour
     {
         List<Item>[] storeItems; // where the store inventory is stored
-        public int x { get; set; }
-        public int y { get; set; }
         public int ID { get; set; }
 
         List<Item> shoppingList = new List<Item>();
@@ -72,11 +70,6 @@ namespace tycoon {
         public List<Item> getShoppingList()
         {
             return shoppingList;
-        }
-        public void move(int X, int Y)
-        {
-            x = X;
-            y = Y;
         }
         public void addToInventory(Item item)
         {
