@@ -29,6 +29,13 @@ namespace tycoon
         int custCapacity = 100; // default
         List<Item>[] inventory = new List<Item>[25];
         List<Customer> customers;
+        List<Item> orderHistory = new List<Item>();
+
+        public string storeName;
+        //default opening closing hours
+        //24 hour clock
+        public int openingHour = 7;
+        public int closingHour = 23;
         
         // adds a specific item to the correct item list
         void addItem(Item item)
@@ -37,6 +44,7 @@ namespace tycoon
             if (inventory[itemID].Count >= invCapacity)
                 return;
             inventory[itemID].Add(item);
+            recordOrder(item);
         }
 
         // deletes an item from the correct item list
@@ -89,6 +97,38 @@ namespace tycoon
                 tot += inventory[i].Count;
             }
             return tot;
+        }
+
+        public void recordOrder(Item item)
+        {
+            orderHistory.Add(item);
+        }
+
+        public List getOrderHistory()
+        {
+            return orderHistory;
+        }
+
+        public void returnItem(Item item)
+        {
+            //get half of your money back if return item
+            money +=  .5 * item.getBasePrice();
+            deleteItem(item);
+        }
+
+        public void removeExpired(Item item)
+        {
+            deleteItem(item);
+        }
+        public void setStoreHours(int opening, int closing)
+        {
+            openingHour = opening;
+            closingHour = closing;
+        }
+
+        public void setStorename(string name)
+        {
+            storeName = name;
         }
     }
 }
