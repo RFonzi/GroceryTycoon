@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
+using System.Threading;
 
 namespace tycoon
 {
@@ -12,18 +14,30 @@ namespace tycoon
         int customerCount = 0;
 
         List<Customer> customerList = new List<Customer>();
-        
+
+        Player player = new Player();
+
+        float timeElapsed = Time.time + 2;
+
+        float last;
+
+        float timeBetweenCustomers = 2;
 
         // Use this for initialization
         void Start()
         {
-
+           
         }
 
         // Update is called once per frame
         void Update()
         {
-
+            //every 2 seconds a new customer, can be changed default to 2
+            if(Time.time - last >= timeBetweenCustomers)
+            {
+                generateCustomer();
+                last = Time.time;
+            }
         }
 
 
@@ -77,6 +91,27 @@ namespace tycoon
 
         }
 
+        //generates customers, right now just based on a 2 second timer
+        //deletes items from shopping list from store inventory
+        void generateCustomer()
+        {
+
+            Customer newCustomer = new Customer(player.getInventory());
+
+            List<Item> shoppingList = newCustomer.getShoppingList();
+
+            for(int i = 0; i < shoppingList.Count; i++)
+            {
+                player.deleteItem(shoppingList[i]);
+                player.addMoney(shoppingList[i].getSellPrice());
+            }
+
+            Destroy(newCustomer);
+
+        }
+
+        
+        
     }
 }
 
