@@ -38,7 +38,7 @@ namespace tycoon
         public int closingHour = 23;
         
         // adds a specific item to the correct item list
-        void addItem(Item item)
+        public void addItem(Item item)
         {
             int itemID = item.getItemID();
             if (inventory[itemID].Count >= invCapacity)
@@ -48,7 +48,7 @@ namespace tycoon
         }
 
         // deletes an item from the correct item list
-        void deleteItem(Item item)
+        public void deleteItem(Item item)
         {
             int itemID = item.getItemID();
             if (!inventory[itemID].Contains(item))
@@ -58,7 +58,7 @@ namespace tycoon
         }
 
         // adds an array of items, putting them all into the correct list
-        void addItems(Item[] items)
+        public void addItems(Item[] items)
         {
             if ((getInventorySize() + items.Length) < invCapacity)
                 return;
@@ -104,7 +104,7 @@ namespace tycoon
             orderHistory.Add(item);
         }
 
-        public List getOrderHistory()
+        public List<Item> getOrderHistory()
         {
             return orderHistory;
         }
@@ -129,6 +129,15 @@ namespace tycoon
         public void setStorename(string name)
         {
             storeName = name;
+        }
+
+        public void addMoney(double income)
+        {
+            money += income;
+        }
+        public void subtractMoney(double loss)
+        {
+            money -= loss;
         }
     }
 }
