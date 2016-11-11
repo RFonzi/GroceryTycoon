@@ -122,7 +122,11 @@ namespace tycoon
         //simple idea for changing the customer generation speed
         void modifyGenerateCustomerTime(float change)
         {
-            timeBetweenCustomers += change;
+            //stops the time from going negative or too low
+            if(timeBetweenCustomers+change > .5f)
+            {
+                timeBetweenCustomers += change;
+            }
         }
         
     }
