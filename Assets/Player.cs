@@ -29,7 +29,8 @@ namespace tycoon
         int custCapacity = 100; // default
         List<Item>[] inventory = new List<Item>[25];
         List<Customer> customers;
-        List<Item> orderHistory = new List<Item>();
+        List< List<Item>>orderHistory = new List< List<Item>>();
+        List<Item> order = new List<Item> ();
 
         public string storeName;
         //default opening closing hours
@@ -58,15 +59,24 @@ namespace tycoon
         }
 
         // adds an array of items, putting them all into the correct list
+        //also adds them to a list for the order history
         public void addItems(Item[] items)
         {
+            if(order.Count > 0)
+            {
+                order.Clear();
+            }
+            
+
             if ((getInventorySize() + items.Length) < invCapacity)
                 return;
             for (int i = 0; i < items.Length; i++)
             {
                 int itemID = items[i].getItemID();
                 inventory[itemID].Add(items[i]);
+                order.Add(items[i]);
             }
+            recordOrder(order);
         }
 
         // adds a customer to the store
@@ -99,12 +109,24 @@ namespace tycoon
             return tot;
         }
 
+        //if 1 item ordered adds to a list then adds to the order history
         public void recordOrder(Item item)
         {
-            orderHistory.Add(item);
+            if(order.Count > 0)
+            {
+                order.Clear();
+            }
+            order.Add(item);
+
+            orderHistory.Add(order);
+        }
+        
+        public void recordOrder(List <Item> items)
+        {
+            orderHistory.Add(items);
         }
 
-        public List<Item> getOrderHistory()
+        public List<List<Item>> getOrderHistory()
         {
             return orderHistory;
         }
