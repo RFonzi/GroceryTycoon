@@ -17,8 +17,6 @@ namespace tycoon
 
         Player player = new Player();
 
-        float timeElapsed = Time.time + 2;
-
         float last;
 
         float timeBetweenCustomers = 2;
@@ -32,7 +30,7 @@ namespace tycoon
         // Update is called once per frame
         void Update()
         {
-            //every 2 seconds a new customer, can be changed default to 2
+            //every x seconds a new customer, can be changed. Default is 2
             if(Time.time - last >= timeBetweenCustomers)
             {
                 generateCustomer();
@@ -104,13 +102,28 @@ namespace tycoon
             {
                 player.deleteItem(shoppingList[i]);
                 player.addMoney(shoppingList[i].getSellPrice());
+
+                //if a customer's prefered item is in the store
+                //lowers time between customers, otherwise raises time
+                if(newCustomer.hasPrefered)
+                {
+                    modifyGenerateCustomerTime(-.05f);
+                }
+                else
+                {
+                    modifyGenerateCustomerTime(.05f);
+                }
             }
 
             Destroy(newCustomer);
 
         }
 
-        
+        //simple idea for changing the customer generation speed
+        void modifyGenerateCustomerTime(float change)
+        {
+            timeBetweenCustomers += change;
+        }
         
     }
 }
