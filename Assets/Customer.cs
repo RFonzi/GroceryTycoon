@@ -12,10 +12,15 @@ namespace tycoon {
         List<Item> shoppingList = new List<Item>();
         List<Item> inventory = new List<Item>();
 
+        Item Prefereditem;
+        public bool hasPrefered = null;
+
         // Use this for initialization
         void Start()
         {
-
+            System.Random rnd = new System.Random();
+            int pref = rnd.Next(0, 25);
+            Item Prefereditem = new Item(pref);
         }
 
         // Update is called once per frame
@@ -32,6 +37,10 @@ namespace tycoon {
         // determines if the customer wants to buy a specific item
         public bool buyItem(Item item)
         {
+            if(item.GetType()== Prefereditem.GetType())
+            {
+                hasPrefered = true;
+            }
             //cant do buy price, since trades will mess it up
             //base price doesnt change and is just what the player can pay from in game market
             double spread = (item.getSellPrice() - item.getBasePrice());
@@ -64,6 +73,12 @@ namespace tycoon {
                 {
                     shoppingList.Add(storeItems[i][0]);
                 }
+            }
+
+            //if the prefered item is in store inventory
+            if(hasPrefered != true)
+            {
+                hasPrefered = false;
             }
         }
 
