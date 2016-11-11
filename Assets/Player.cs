@@ -62,7 +62,7 @@ namespace tycoon
         //also adds them to a list for the order history
         public void addItems(Item[] items)
         {
-            if(order.Count > 0)
+            if(order.Count >= 0)
             {
                 order.Clear();
             }
@@ -112,7 +112,7 @@ namespace tycoon
         //if 1 item ordered adds to a list then adds to the order history
         public void recordOrder(Item item)
         {
-            if(order.Count > 0)
+            if(order.Count >= 0)
             {
                 order.Clear();
             }
