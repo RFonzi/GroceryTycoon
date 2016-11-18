@@ -161,6 +161,14 @@ namespace tycoon
         {
             money -= loss;
         }
+
+        public void sellItem(Item item)
+        {
+            addMoney(item.getSellPrice());
+           
+            deleteItem(item);
+
+        }
     }
 }
 
