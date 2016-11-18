@@ -16,14 +16,28 @@ namespace tycoon
             }
             customers = new List<Customer>();
 
+            day = 0;
+            hour = 0;
         }
 
         // Update is called once per frame
         void Update()
         {
+            if(Time.time - last >= timePerHour)
+            {
+                last = Time.time;
+                hour++;
 
+                if(hour >= 24)
+                {
+                    day++;
+                    hour = 0;
+                }
+            } 
         }
 
+        float last;
+        float timePerHour = 30;
         double money;
         int invCapacity = 100; // default
         int custCapacity = 100; // default
@@ -31,6 +45,9 @@ namespace tycoon
         List<Customer> customers;
         List< List<Item>>orderHistory = new List< List<Item>>();
         List<Item> order = new List<Item> ();
+
+        int day { get; set; }
+        int hour { get; set; }
 
         public string storeName;
         //default opening closing hours
