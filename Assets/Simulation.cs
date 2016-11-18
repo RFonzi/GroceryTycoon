@@ -100,8 +100,7 @@ namespace tycoon
 
             for(int i = 0; i < shoppingList.Count; i++)
             {
-                player.deleteItem(shoppingList[i]);
-                player.addMoney(shoppingList[i].getSellPrice());
+                newCustomer.sellItem(shoppingList[i]);
 
                 //if a customer's prefered item is in the store
                 //lowers time between customers, otherwise raises time
