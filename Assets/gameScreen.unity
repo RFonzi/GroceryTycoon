@@ -751,6 +751,7 @@ GameObject:
   - 224: {fileID: 283669898}
   - 222: {fileID: 283669900}
   - 114: {fileID: 283669899}
+  - 114: {fileID: 283669901}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -809,6 +810,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 283669897}
+--- !u!114 &283669901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 283669897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b599f054b5db55e4394661f71f5dbd64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightBound: 1000
+  leftBound: -1000
+  topBound: 1000
+  bottomBound: -1000
 --- !u!1 &318049871
 GameObject:
   m_ObjectHideFlags: 0
