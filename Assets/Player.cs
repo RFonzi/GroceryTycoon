@@ -9,7 +9,7 @@ namespace tycoon
         public Player() {
             for (int i = 0; i < inventory.Length; i++) // initialize group
             {
-                inventory[i] = new List<Item>();
+                inventory[i] = new List<GameItem>();
             }
             customers = new List<Customer>();
 
@@ -34,10 +34,10 @@ namespace tycoon
         double money;
         int invCapacity = 100; // default
         int custCapacity = 100; // default
-        List<Item>[] inventory = new List<Item>[25];
+        List<GameItem>[] inventory = new List<GameItem>[25];
         List<Customer> customers;
-        List< List<Item>>orderHistory = new List< List<Item>>();
-        List<Item> order = new List<Item> ();
+        List< List<GameItem>>orderHistory = new List< List<GameItem>>();
+        List<GameItem> order = new List<GameItem> ();
 
         int day { get; set; }
         int hour { get; set; }
@@ -49,7 +49,7 @@ namespace tycoon
         public int closingHour = 23;
         
         // adds a specific item to the correct item list
-        public void addItem(Item item)
+        public void addItem(GameItem item)
         {
             int itemID = item.getItemID();
             if (getInventorySize() >= invCapacity)
@@ -65,7 +65,7 @@ namespace tycoon
         }
 
         // deletes an item from the correct item list
-        public void deleteItem(Item item)
+        public void deleteItem(GameItem item)
         {
             int itemID = item.getItemID();
             if (!inventory[itemID].Contains(item))
@@ -76,7 +76,7 @@ namespace tycoon
 
         // adds an array of items, putting them all into the correct list
         //also adds them to a list for the order history
-        public void addItems(Item[] items)
+        public void addItems(GameItem[] items)
         {
             if(order.Count >= 0)
             {
@@ -109,7 +109,7 @@ namespace tycoon
         }
 
         //returns the stores inventory
-        public List<Item>[] getInventory()
+        public List<GameItem>[] getInventory()
         {
             return inventory;
         }
@@ -132,7 +132,7 @@ namespace tycoon
         }
 
         //if 1 item ordered adds to a list then adds to the order history
-        public void recordOrder(Item item)
+        public void recordOrder(GameItem item)
         {
             if(order.Count >= 0)
             {
@@ -140,27 +140,27 @@ namespace tycoon
             }
             order.Add(item);
 
-            orderHistory.Add(new List<Item>(order));
+            orderHistory.Add(new List<GameItem>(order));
         }
         
-        public void recordOrder(List <Item> items)
+        public void recordOrder(List <GameItem> items)
         {
-            orderHistory.Add(new List<Item>(items));
+            orderHistory.Add(new List<GameItem>(items));
         }
 
-        public List<List<Item>> getOrderHistory()
+        public List<List<GameItem>> getOrderHistory()
         {
             return orderHistory;
         }
 
-        public void returnItem(Item item)
+        public void returnItem(GameItem item)
         {
             //get half of your money back if return item
             money +=  .5 * item.getBasePrice();
             deleteItem(item);
         }
 
-        public void removeExpired(Item item)
+        public void removeExpired(GameItem item)
         {
             deleteItem(item);
         }
@@ -184,7 +184,7 @@ namespace tycoon
             money -= loss;
         }
 
-        public void sellItem(Item item)
+        public void sellItem(GameItem item)
         {
             addMoney(item.getSellPrice());
            

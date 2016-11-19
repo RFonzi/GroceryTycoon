@@ -6,28 +6,28 @@ using System.Collections.Generic;
 namespace tycoon {
     public class Customer
     {
-        List<Item>[] storeItems; // where the store inventory is stored
+        List<GameItem>[] storeItems; // where the store inventory is stored
         public int ID { get; set; }
 
-        List<Item> shoppingList = new List<Item>();
-        List<Item> inventory = new List<Item>();
+        List<GameItem> shoppingList = new List<GameItem>();
+        List<GameItem> inventory = new List<GameItem>();
         System.Random rnd;
 
-        Item Prefereditem;
+        GameItem Prefereditem;
         public bool hasPrefered = false;
 
-        public Customer (List<Item>[] items)
+        public Customer (List<GameItem>[] items)
         {
             rnd = new System.Random();
             int pref = rnd.Next(0, 25);
-            Prefereditem = new Item(pref);
+            Prefereditem = new GameItem(pref);
 
             storeItems = items;
             createShoppingList();
         }
 
         // determines if the customer wants to buy a specific item
-        public bool buyItem(Item item)
+        public bool buyItem(GameItem item)
         {
 
             if(item.getItemID() == Prefereditem.getItemID())
@@ -88,15 +88,15 @@ namespace tycoon {
             }
         }
 
-        public List<Item> getShoppingList()
+        public List<GameItem> getShoppingList()
         {
             return shoppingList;
         }
-        public void addToInventory(Item item)
+        public void addToInventory(GameItem item)
         {
             inventory.Add(item);
         }
-        public void removeFromInventory(Item item)
+        public void removeFromInventory(GameItem item)
         {
             inventory.Remove(item);
         }

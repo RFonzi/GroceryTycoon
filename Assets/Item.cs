@@ -1,8 +1,8 @@
-using System.Collections;
+﻿using System.Collections;
 using System;
 
 namespace tycoon {
-    public class Item
+    public class GameItem
     {
 
         enum Items
@@ -20,7 +20,7 @@ namespace tycoon {
         int expiration;
         Items type;
 
-        public Item(int num)
+        public GameItem(int num)
         {
             if (num >= 25) // out of bounds
                 return;
