@@ -86,7 +86,7 @@ namespace tycoon
 
             Customer newCustomer = new Customer(player.getInventory());
 
-            List<Item> shoppingList = newCustomer.getShoppingList();
+            List<GameItem> shoppingList = newCustomer.getShoppingList();
 
             for(int i = 0; i < shoppingList.Count; i++)
             {
