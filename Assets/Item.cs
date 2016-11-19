@@ -1,22 +1,9 @@
-using UnityEngine;
 using System.Collections;
 using System;
 
 namespace tycoon {
-    public class Item : MonoBehaviour
+    public class Item
     {
-
-        // Use this for initialization
-        void Start()
-        {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
 
         enum Items
         {

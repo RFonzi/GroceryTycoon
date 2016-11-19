@@ -1,15 +1,12 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 
 namespace tycoon
 {
-    public class Player : MonoBehaviour
+    public class Player
     {
 
-        // Use this for initialization
-        void Start()
-        {
+        public Player() {
             for (int i = 0; i < inventory.Length; i++) // initialize group
             {
                 inventory[i] = new List<Item>();
@@ -20,10 +17,7 @@ namespace tycoon
             hour = 0;
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-            if(Time.time - last >= timePerHour)
+            /*if(Time.time - last >= timePerHour)
             {
                 last = Time.time;
                 hour++;
@@ -33,8 +27,7 @@ namespace tycoon
                     day++;
                     hour = 0;
                 }
-            } 
-        }
+            } */
 
         float last;
         float timePerHour = 30;
@@ -59,10 +52,16 @@ namespace tycoon
         public void addItem(Item item)
         {
             int itemID = item.getItemID();
-            if (inventory[itemID].Count >= invCapacity)
+            if (getInventorySize() >= invCapacity)
                 return;
-            inventory[itemID].Add(item);
-            recordOrder(item);
+
+            if(item.getBasePrice() <= money) {
+                inventory[itemID].Add(item);
+                money -= item.getBasePrice();
+                recordOrder(item);
+            }
+            
+            
         }
 
         // deletes an item from the correct item list
@@ -85,14 +84,20 @@ namespace tycoon
             }
             
 
-            if ((getInventorySize() + items.Length) < invCapacity)
+            if ((getInventorySize() + items.Length) > invCapacity)
                 return;
             for (int i = 0; i < items.Length; i++)
             {
                 int itemID = items[i].getItemID();
-                inventory[itemID].Add(items[i]);
+
+                if (items[i].getBasePrice() <= money) {
+                    inventory[itemID].Add(items[i]);
+                    money -= items[i].getBasePrice();
+                }
+
                 order.Add(items[i]);
             }
+
             recordOrder(order);
         }
 
@@ -135,12 +140,12 @@ namespace tycoon
             }
             order.Add(item);
 
-            orderHistory.Add(order);
+            orderHistory.Add(new List<Item>(order));
         }
         
         public void recordOrder(List <Item> items)
         {
-            orderHistory.Add(items);
+            orderHistory.Add(new List<Item>(items));
         }
 
         public List<List<Item>> getOrderHistory()

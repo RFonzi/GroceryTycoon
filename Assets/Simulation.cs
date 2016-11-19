@@ -1,5 +1,4 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System;
 using System.Threading;
@@ -8,34 +7,25 @@ namespace tycoon
 {
 
 
-    public class Simulation : MonoBehaviour
+    public class Simulation
     {
 
-        int customerCount = 0;
+        int customerCount;
 
-        List<Customer> customerList = new List<Customer>();
+        List<Customer> customerList;
 
-        Player player = new Player();
+        public Player player;
 
-        float last;
+        public double last;
 
-        float timeBetweenCustomers = 2;
+        public double timeBetweenCustomers;
 
-        // Use this for initialization
-        void Start()
-        {
-           
-        }
+        public Simulation() {
+            player = new Player();
+            customerList = new List<Customer>();
+            timeBetweenCustomers = 2;
+            customerCount = 0;
 
-        // Update is called once per frame
-        void Update()
-        {
-            //every x seconds a new customer, can be changed. Default is 2
-            if(Time.time - last >= timeBetweenCustomers)
-            {
-                generateCustomer();
-                last = Time.time;
-            }
         }
 
 
@@ -91,7 +81,7 @@ namespace tycoon
 
         //generates customers, right now just based on a 2 second timer
         //deletes items from shopping list from store inventory
-        void generateCustomer()
+        public void generateCustomer()
         {
 
             Customer newCustomer = new Customer(player.getInventory());
@@ -100,7 +90,7 @@ namespace tycoon
 
             for(int i = 0; i < shoppingList.Count; i++)
             {
-                newCustomer.sellItem(shoppingList[i]);
+                player.sellItem(shoppingList[i]);
 
                 //if a customer's prefered item is in the store
                 //lowers time between customers, otherwise raises time
@@ -114,7 +104,7 @@ namespace tycoon
                 }
             }
 
-            Destroy(newCustomer);
+            newCustomer = null;
 
         }
 
@@ -122,7 +112,7 @@ namespace tycoon
         void modifyGenerateCustomerTime(float change)
         {
             //stops the time from going negative or too low
-            if(timeBetweenCustomers+change > .5f)
+            if(timeBetweenCustomers+change > 1)
             {
                 timeBetweenCustomers += change;
             }
