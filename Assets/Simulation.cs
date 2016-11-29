@@ -16,12 +16,15 @@ namespace tycoon
 
         public Player player;
 
+        public financial fin;
+
         public double last;
 
         public double timeBetweenCustomers;
 
         public Simulation() {
             player = new Player();
+            fin = new financial();
             customerList = new List<Customer>();
             timeBetweenCustomers = 2;
             customerCount = 0;
@@ -125,6 +128,8 @@ namespace tycoon
                 player.invCapacity += player.inventoryUpgradeFactor;
                 player.subtractMoney(player.inventoryUpgradeCost);
 
+                fin.addUpgradesValue(player.inventoryUpgradeCost);
+
                 player.inventoryUpgradeFactor = (int) (player.inventoryUpgradeFactor * 1.1);
                 player.inventoryUpgradeCost *= 1.4;
             }
@@ -135,6 +140,7 @@ namespace tycoon
             {
                 modifyGenerateCustomerTime(player.customerUpgradeFactor);
                 player.subtractMoney(player.customerUpgradeCost);
+                fin.addUpgradesValue(player.customerUpgradeCost);
 
                 player.customerUpgradeFactor = (float)(player.customerUpgradeFactor * 1.1);
                 player.customerUpgradeCost *= 1.4;
@@ -148,6 +154,7 @@ namespace tycoon
                 {
                     player.operatingCost -= player.operatingUpgradeFactor;
                     player.subtractMoney(player.operatingUpgradeCost);
+                    fin.addUpgradesValue(player.operatingUpgradeCost);
 
                     player.operatingUpgradeFactor *= 1.1;
                     player.operatingUpgradeCost *= 1.4;
