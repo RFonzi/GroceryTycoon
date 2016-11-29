@@ -191,6 +191,11 @@ namespace tycoon
             deleteItem(item);
 
         }
+        public int getQuantity(GameItem itemType)
+        {
+            int id = itemType.getItemID();
+            return inventory[id].Count;
+        }
     }
 }
 
