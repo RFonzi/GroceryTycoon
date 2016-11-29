@@ -17,27 +17,35 @@ namespace tycoon
             hour = 0;
         }
 
-            /*if(Time.time - last >= timePerHour)
+        /*if(Time.time - last >= timePerHour)
+        {
+            last = Time.time;
+            hour++;
+
+            if(hour >= 24)
             {
-                last = Time.time;
-                hour++;
-
-                if(hour >= 24)
-                {
-                    day++;
-                    hour = 0;
-                }
-            } */
-
+                day++;
+                hour = 0;
+            }
+        } */
+        public double operatingCost = 500;
         float last;
         float timePerHour = 30;
         double money;
-        int invCapacity = 100; // default
+        public int invCapacity = 100; // default
         int custCapacity = 100; // default
         List<GameItem>[] inventory = new List<GameItem>[25];
         List<Customer> customers;
         List< List<GameItem>>orderHistory = new List< List<GameItem>>();
         List<GameItem> order = new List<GameItem> ();
+
+        public double inventoryUpgradeCost = 50;
+        public double customerUpgradeCost = 50;
+        public double operatingUpgradeCost = 500;
+
+        public int inventoryUpgradeFactor = 10;
+        public float customerUpgradeFactor = -.01f;
+        public double operatingUpgradeFactor = 50;
 
         int day { get; set; }
         int hour { get; set; }
