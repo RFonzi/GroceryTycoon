@@ -117,6 +117,48 @@ namespace tycoon
                 timeBetweenCustomers += change;
             }
         }
+
+        public void inventoryUpgrade()
+        {
+            if(player.getMoney() >= player.inventoryUpgradeCost)
+            {
+                player.invCapacity += player.inventoryUpgradeFactor;
+                player.subtractMoney(player.inventoryUpgradeCost);
+
+                player.inventoryUpgradeFactor = (int) (player.inventoryUpgradeFactor * 1.1);
+                player.inventoryUpgradeCost *= 1.4;
+            }
+        }
+        public void customerUpgrade()
+        {
+            if (player.getMoney() >= player.customerUpgradeCost)
+            {
+                modifyGenerateCustomerTime(player.customerUpgradeFactor);
+                player.subtractMoney(player.customerUpgradeCost);
+
+                player.customerUpgradeFactor = (float)(player.customerUpgradeFactor * 1.1);
+                player.customerUpgradeCost *= 1.4;
+            }
+        }
+        public void operatingCostUpgrade()
+        {
+            if(player.operatingCost - player.operatingUpgradeFactor > 100)
+            {
+                if (player.getMoney() >= player.operatingUpgradeCost)
+                {
+                    player.operatingCost -= player.operatingUpgradeFactor;
+                    player.subtractMoney(player.operatingUpgradeCost);
+
+                    player.operatingUpgradeFactor *= 1.1;
+                    player.operatingUpgradeCost *= 1.4;
+
+                }
+            }
+            else
+            {
+                return;
+            }
+        }
         
     }
 }
