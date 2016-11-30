@@ -15,6 +15,7 @@ Note: if it needs backend, it also needs to be associated in Unity as a componen
 		upgrades? - backend
 	x	create finances button
 		get Finances button working
+		change store name
 
 		Finances Dim
 		x	moved from MainPanel to ManagePanel
@@ -35,3 +36,4 @@ Note: if it needs backend, it also needs to be associated in Unity as a componen
 	OptionPanel
 	x	leaderboard takes you to URL
 		implement save game
+		toggle sound
