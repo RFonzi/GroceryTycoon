@@ -5,8 +5,8 @@ using System.Text;
 using UnityEngine;
 
 namespace tycoon {
-    class Bootstrap : MonoBehaviour {
-        Simulation sim;
+    public class Bootstrap : MonoBehaviour {
+        public static Simulation sim;
 
         public void Update() {
             float currentTime = Time.time;

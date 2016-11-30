@@ -1,0 +1,37 @@
+To Do List
+Note: if it needs backend, it also needs to be associated in Unity as a component of the object
+
+	MainPanel
+	x	get corner money text to update
+		display graphics
+	x	display time - UI
+		time function to update UI - backend
+
+	ManagePanel
+	x	store hours - UI
+		update store hours with each frame
+		store hours - backend
+	x	upgrades buttons/dropdown? - UI
+		upgrades? - backend
+	x	create finances button
+		get Finances button working
+
+		Finances Dim
+		x	moved from MainPanel to ManagePanel
+		x	display income to date - needs backend
+		x	display losses to date - needs backend
+		x	display current net worth - needs backend
+
+	InventoryPanel
+	x	initialize all values to defaults on start
+		be able to purchase items
+		be able to remove an item
+		display button color based on freshness of that item
+		update text in scroll lists
+
+	StartScreen
+		initialize a game
+
+	OptionPanel
+	x	leaderboard takes you to URL
+		implement save game

@@ -1,18 +1,18 @@
 ﻿using System.Collections;
 using System;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Events;
 
 namespace tycoon {
     public class GameItem
     {
-
-        enum Items
+        public enum Items
         {
             Apples, Bananas, Grapes, Oranges, Tomatoes, Potatoes, Asparagus, Corn, Zukkini,
             Carrots, Water, Orange_Juice, Beer, Wine, Apple_Juice, Chicken, Beef, Pork, Eggs,
             Fish, Pasta, Cereal, Bread, Tortilla, Cookies
         }
-
-
 
         double buyPrice;
         double sellPrice;
@@ -34,10 +34,8 @@ namespace tycoon {
             sellPrice = price;
         }
 
-
-
         //added base price so for networth function in financial
-        void setDefaults(Items itemType)
+        public void setDefaults(Items itemType)
         {
             switch (itemType) // need to set buyPrice and expiration of each case
             {
