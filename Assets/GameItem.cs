@@ -35,7 +35,7 @@ namespace tycoon {
         }
 
         //added base price so for networth function in financial
-        public void setDefaults(Items itemType)
+        public void  setDefaults(Items itemType)
         {
             switch (itemType) // need to set buyPrice and expiration of each case
             {

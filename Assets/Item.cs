@@ -54,10 +54,7 @@ namespace tycoon
         // Use this for initialization
         void Start()
         {
-            // set default values for all item types
-            GameItem.Items[] values = (GameItem.Items[])System.Enum.GetValues(typeof(GameItem.Items));
-            foreach (GameItem.Items n in values)
-                simState.gameItem.setDefaults(n); // uses Singleton "SimState" class 
+           
             /*foreach (GameItem Items in GameItem.Items.GetValues(typeof(GameItem.Items)))
             {
                 tycoon.GameItem.Items product = Items;
@@ -72,7 +69,7 @@ namespace tycoon
         {
             // show available money in top-right corner of MainPanel
             double money = 100.00;//simState.sim.player.getMoney(); // uses Singleton "SimState" class 
-            playerMoneyText.GetComponent<Text>().text = money.ToString();
+            //playerMoneyText.GetComponent<Text>().text = money.ToString();
 
             // show quantities in InventoryPanel
             // quanText.GetComponent<Text>().text = simState.gameItem.getQuantity.ToString; // needs a method from backend
@@ -135,6 +132,7 @@ namespace tycoon
             int total = 0;
             GameItem.Items item;
 
+<<<<<<< HEAD
             // apples
             var b = order.GetComponent<InputField>().text;
             print(b.ToString());
@@ -157,10 +155,16 @@ namespace tycoon
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
+=======
+            if (order1.GetComponent<InputField>().text != null)
+            {
+                total = int.Parse(order1.GetComponent<InputField>().text); // convert input text to int
+>>>>>>> 805fe0cd574dae132cdefb5b63f4069554031951
                 item = GameItem.Items.Bananas;
 
                 for (i = 0; i < total; i++)
                 {
+<<<<<<< HEAD
                     GameItem produce = new GameItem((int)item);
                     simState.sim.player.addItem(produce);
                 }
@@ -342,6 +346,13 @@ namespace tycoon
                 for (i = 0; i < total; i++)
                 {
                     GameItem produce = new GameItem((int)item);
+=======
+                    if(produce == null)
+                    {
+                        print("null produce");
+                    }
+
+>>>>>>> 805fe0cd574dae132cdefb5b63f4069554031951
                     simState.sim.player.addItem(produce);
                 }
             }
