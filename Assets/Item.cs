@@ -24,6 +24,12 @@ namespace tycoon
         public GameObject quanText2;
         public GameObject quanText3;
 
+        public GameObject order;
+        public GameObject order1;
+        public GameObject order2;
+        public GameObject order3;
+        public GameObject order4;
+
 
         // Use this for initialization
         void Start()
@@ -86,7 +92,7 @@ namespace tycoon
         }
 
         // takes all user inputs from order screen and adds those items to their inventory
-        public void placeOrder()
+        /*public void placeOrder()
         {
             //int i = 0;
             //int total = 0;
@@ -101,12 +107,59 @@ namespace tycoon
             //        simState.sim.player.addItem(produce);
             //    }
             //}
+        }*/
+
+        public void placeOrder()
+        {
+            int i = 0;
+            int total = 0;
+            GameItem.Items item;
+
+            if (order1.GetComponent<Text>().text != null)
+            {
+                total = int.Parse(order1.GetComponent<Text>().text); // convert input text to int
+                item = GameItem.Items.Bananas;
+                GameItem produce = new GameItem((int)item);
+
+                for (i = 0; i < total; i++)
+                {
+                    simState.sim.player.addItem(produce);
+                }
+            }
         }
 
-        // go to leaderboard webpage
+
+        public void showItemQuanity()
+        {
+            GameItem.Items item;
+
+            item = GameItem.Items.Bananas;
+            GameItem produce = new GameItem((int)item);
+            quanText1.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+        }
+
+
+        // submit score and go to leaderboard webpage
         public void showLeaderboard()
         {
-            Application.OpenURL("http://unity3d.com/");
+            /*string name = nameInput.GetComponent<Text>().text;
+            int date = simState.sim.player.day;
+            int cash = (int) simState.sim.player.getMoney();
+
+            string query = "INSERT INTO leaderboard (GroceryName, Day, Money)";
+            query += " VALUES (@GroceryName, @Day, @Money)";
+
+            SqlConnection conn = new SqlConnection("Server=databases.000webhost.com;Database=id277545_gtleaderboard;User Id=id277545_root;Password=asdfasdf;");
+            conn.Open();
+            SqlCommand myCommand = new SqlCommand(query, conn);
+            myCommand.Parameters.AddWithValue("@GroceryName", name);
+            myCommand.Parameters.AddWithValue("@Day", date);
+            myCommand.Parameters.AddWithValue("@Money", cash );
+            myCommand.ExecuteNonQuery();
+            conn.Close();*/
+
+
+            Application.OpenURL("https://grocerytycoon.000webhostapp.com");
         }
 
         // display proper item in ItemPanel

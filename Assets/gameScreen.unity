@@ -2102,6 +2102,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &72968788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3294,6 +3299,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 1369668383}
+  order1: {fileID: 1431285764}
+  order2: {fileID: 583249856}
+  order3: {fileID: 153675742}
+  order4: {fileID: 667846778}
 --- !u!1 &136496731
 GameObject:
   m_ObjectHideFlags: 0
@@ -4104,7 +4114,7 @@ GameObject:
   - 114: {fileID: 153675745}
   - 114: {fileID: 153675744}
   m_Layer: 5
-  m_Name: InputField (3)
+  m_Name: order3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4940,12 +4950,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 1882372447}
-  m_RootOrder: 4
+  m_Father: {fileID: 524792471}
+  m_RootOrder: 0
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -96.08423, y: -47.54494}
-  m_SizeDelta: {x: 150, y: 77}
+  m_AnchoredPosition: {x: -85.1, y: -25.5}
+  m_SizeDelta: {x: 170.2, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &177880135
 MonoBehaviour:
@@ -4959,7 +4969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4968,12 +4978,12 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 32
-    m_FontStyle: 0
+    m_FontSize: 30
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -5836,7 +5846,7 @@ Prefab:
     - target: {fileID: 224000012115236978, guid: c5fa235ca7c3b90429a592519c010da8,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 75.333336
+      value: 76.12155
       objectReference: {fileID: 0}
     - target: {fileID: 224000012115236978, guid: c5fa235ca7c3b90429a592519c010da8,
         type: 2}
@@ -5846,7 +5856,7 @@ Prefab:
     - target: {fileID: 224000012115236978, guid: c5fa235ca7c3b90429a592519c010da8,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 150.66667
+      value: 152.2431
       objectReference: {fileID: 0}
     - target: {fileID: 224000012115236978, guid: c5fa235ca7c3b90429a592519c010da8,
         type: 2}
@@ -8491,7 +8501,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.7916994, y: 2.5563803}
+  m_AnchoredPosition: {x: -1.7924805, y: 5.0902576}
   m_SizeDelta: {x: 323.69, y: 520.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &377962307
@@ -9779,6 +9789,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &410672907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9994,6 +10009,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &430471420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11641,6 +11661,75 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519286759}
+--- !u!1 &524792470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 524792471}
+  - 222: {fileID: 524792473}
+  - 114: {fileID: 524792472}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &524792471
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 524792470}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 177880134}
+  m_Father: {fileID: 1882372447}
+  m_RootOrder: 4
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 226.57, y: 468}
+  m_SizeDelta: {x: 170.2, y: 51}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &524792472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 524792470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &524792473
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 524792470}
 --- !u!1 &533403015
 GameObject:
   m_ObjectHideFlags: 0
@@ -12837,6 +12926,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &575372144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12945,7 +13039,7 @@ GameObject:
   - 114: {fileID: 583249859}
   - 114: {fileID: 583249858}
   m_Layer: 5
-  m_Name: InputField (2)
+  m_Name: order2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13861,6 +13955,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &627914133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13957,80 +14056,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 627914130}
---- !u!1 &628930924
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 224: {fileID: 628930925}
-  - 222: {fileID: 628930927}
-  - 114: {fileID: 628930926}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &628930925
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 628930924}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 2128597395}
-  m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000030517578, y: 0.000030517578}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &628930926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 628930924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Trade
---- !u!222 &628930927
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 628930924}
 --- !u!1 &633648968
 GameObject:
   m_ObjectHideFlags: 0
@@ -14312,6 +14337,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &639621843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15367,6 +15397,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &663371655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15549,7 +15584,7 @@ GameObject:
   - 114: {fileID: 667846781}
   - 114: {fileID: 667846780}
   m_Layer: 5
-  m_Name: InputField (4)
+  m_Name: order4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16100,6 +16135,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &688217287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16823,6 +16863,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &709376221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17495,6 +17540,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &729176219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19420,6 +19470,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &788758930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20892,6 +20947,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &865864071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21241,7 +21301,7 @@ RectTransform:
   m_Children:
   - {fileID: 2010124178}
   m_Father: {fileID: 1882372447}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 75.25659, y: -38.04494}
@@ -21406,6 +21466,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &881808660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22952,6 +23017,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &973690100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23078,7 +23148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1882372447}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -265, y: -47.045}
@@ -24842,7 +24912,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -28374,6 +28444,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &1215862352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30080,6 +30155,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &1288241110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30970,6 +31050,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &1319418693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31129,6 +31214,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &1321899228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31985,7 +32075,7 @@ GameObject:
   - 114: {fileID: 1369668386}
   - 114: {fileID: 1369668385}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: order
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33040,7 +33130,7 @@ GameObject:
   - 114: {fileID: 1431285767}
   - 114: {fileID: 1431285766}
   m_Layer: 5
-  m_Name: InputField (1)
+  m_Name: order1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34521,6 +34611,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &1518641712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35055,6 +35150,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &1563602725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36032,6 +36132,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &1597838797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36496,7 +36601,7 @@ Canvas:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1615647802}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_RenderMode: 0
   m_Camera: {fileID: 318790898}
@@ -36763,6 +36868,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &1622865142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39500,6 +39610,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 134782853}
+        m_MethodName: placeOrder
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1789323477
@@ -39856,6 +39977,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &1796684913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40068,7 +40194,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0000076293945}
+  m_AnchoredPosition: {x: 0, y: 7.813815}
   m_SizeDelta: {x: 323.21, y: 517.86}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1797609465
@@ -40704,7 +40830,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.2242432, y: 2.5563946}
+  m_AnchoredPosition: {x: -2.2251, y: 7.5549}
   m_SizeDelta: {x: -301.01, y: -476.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1833385209
@@ -41886,15 +42012,14 @@ RectTransform:
   m_Children:
   - {fileID: 2144359808}
   - {fileID: 1771976815}
-  - {fileID: 2128597395}
   - {fileID: 874603895}
-  - {fileID: 177880134}
   - {fileID: 974851736}
+  - {fileID: 524792471}
   m_Father: {fileID: 1615647803}
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.227538, y: -0.5}
+  m_AnchoredPosition: {x: -2.227539, y: 7.278023}
   m_SizeDelta: {x: 4, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1882372448
@@ -43843,6 +43968,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!1 &2015556472
 GameObject:
   m_ObjectHideFlags: 0
@@ -43967,7 +44097,7 @@ Prefab:
     - target: {fileID: 224000010971747532, guid: c34f913edf37fc24e8c05f765803b8d6,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 95.833336
+      value: 95.785324
       objectReference: {fileID: 0}
     - target: {fileID: 224000010971747532, guid: c34f913edf37fc24e8c05f765803b8d6,
         type: 2}
@@ -43977,7 +44107,7 @@ Prefab:
     - target: {fileID: 224000010971747532, guid: c34f913edf37fc24e8c05f765803b8d6,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 191.66667
+      value: 191.57065
       objectReference: {fileID: 0}
     - target: {fileID: 224000010971747532, guid: c34f913edf37fc24e8c05f765803b8d6,
         type: 2}
@@ -44867,6 +44997,11 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
 --- !u!114 &2077112062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45912,117 +46047,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2127822817}
---- !u!1 &2128597394
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 224: {fileID: 2128597395}
-  - 222: {fileID: 2128597398}
-  - 114: {fileID: 2128597397}
-  - 114: {fileID: 2128597396}
-  m_Layer: 5
-  m_Name: Trade Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2128597395
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2128597394}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 628930925}
-  m_Father: {fileID: 1882372447}
-  m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 65.25635, y: 19.945465}
-  m_SizeDelta: {x: 107, y: 53}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2128597396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2128597394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 0.7254902, g: 0.882353, b: 0.89019614, a: 1}
-    m_HighlightedColor: {r: 0.69803923, g: 0.8470589, b: 0.854902, a: 1}
-    m_PressedColor: {r: 0.2836289, g: 0.5602031, b: 0.63235295, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 2128597397}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &2128597397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2128597394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &2128597398
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2128597394}
 --- !u!1 &2130055042
 GameObject:
   m_ObjectHideFlags: 0
