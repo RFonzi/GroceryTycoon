@@ -5,13 +5,21 @@ namespace tycoon
 {
     public class Player
     {
-
+        SimState simState; 
         public Player() {
+            simState = SimState.Instance;
             for (int i = 0; i < inventory.Length; i++) // initialize group
             {
                 inventory[i] = new List<GameItem>();
             }
             customers = new List<Customer>();
+
+            // set default values for all item types
+            GameItem.Items[] values = (GameItem.Items[])System.Enum.GetValues(typeof(GameItem.Items));
+            for(int i = 0; i < 25; i++)
+            {
+
+            }
         }
 
         /*if(Time.time - last >= timePerHour)
