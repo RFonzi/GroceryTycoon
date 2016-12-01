@@ -45,7 +45,7 @@ namespace tycoon
         void Update()
         {
             // show available money in top-right corner of MainPanel
-            double money = simState.sim.player.getMoney(); // uses Singleton "SimState" class 
+            double money = 100.00;//simState.sim.player.getMoney(); // uses Singleton "SimState" class 
             playerMoneyText.GetComponent<Text>().text = money.ToString();
 
             // show quantities in InventoryPanel
@@ -85,9 +85,22 @@ namespace tycoon
 
         }
 
+        // takes all user inputs from order screen and adds those items to their inventory
         public void placeOrder()
         {
-            // make an array for each item type and pass that
+            //int i = 0;
+            //int total = 0;
+            //GameItem.Items item;
+            //if (order1.GetComponent<Text>().text != null)
+            //{
+            //    total = int.Parse(order1.GetComponent<Text>().text); // convert input text to int
+            //    item = GameItem.Items.Bananas;
+            //    GameItem produce = new GameItem((int)item);
+            //    for (i = 0; i < total; i++)
+            //    {
+            //        simState.sim.player.addItem(produce);
+            //    }
+            //}
         }
 
         // go to leaderboard webpage
