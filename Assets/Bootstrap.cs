@@ -10,10 +10,65 @@ namespace tycoon {
 
         public void Update() {
             float currentTime = Time.time;
-
-            if(currentTime - sim.last >= sim.timeBetweenCustomers) 
+            
+            //incase we load game and player.timelast is a really high number
+            if(currentTime < sim.player.timeLast)
             {
-                sim.generateCustomer();
+                sim.player.timeLast = 0;
+            }
+
+            //days / hours for player
+            sim.player.timeElapsed += (currentTime - sim.player.timeLast);
+
+            if (sim.player.timeElapsed >= sim.player.secondsPerDay / 24)
+            {
+                if (sim.player.hour < 23)
+                {
+                    sim.player.hour++;
+                }
+                else
+                {
+                    sim.player.day++;
+                    sim.player.addExpiration();
+                    sim.player.removeExpired();
+                    sim.player.hour = 0;
+                    sim.player.subtractMoney(sim.player.operatingCost);
+                }
+
+                sim.player.timeElapsed = 0;
+            }
+
+            sim.player.timeLast = currentTime;
+
+            //customer shopping based on store opening/closing hours
+            if (currentTime - sim.last >= sim.timeBetweenCustomers) 
+            {
+                if(sim.player.closingHour == sim.player.openingHour)
+                {
+                    sim.generateCustomer();
+                }
+                else if(sim.player.openingHour < sim.player.closingHour)
+                {
+                    if(sim.player.hour >= sim.player.openingHour && sim.player.hour <= sim.player.closingHour)
+                    {
+                        sim.generateCustomer();
+                    }
+                }
+                else 
+                {
+                    if(sim.player.hour <= sim.player.closingHour)
+                    {
+                        sim.generateCustomer();
+                    }
+                    else if(sim.player.hour >= sim.player.openingHour)
+                    {
+                        sim.generateCustomer();
+                    }
+                    else
+                    {
+
+                    }
+                }
                 sim.last = currentTime;
             }
         }

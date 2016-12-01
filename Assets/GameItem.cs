@@ -194,6 +194,10 @@ namespace tycoon {
         {
             return (int)type;
         }
+        public void decrementExpiration()
+        {
+            expiration--;
+        }
     }
 }
 

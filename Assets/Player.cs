@@ -12,9 +12,6 @@ namespace tycoon
                 inventory[i] = new List<GameItem>();
             }
             customers = new List<Customer>();
-
-            day = 0;
-            hour = 0;
         }
 
         /*if(Time.time - last >= timePerHour)
@@ -38,6 +35,10 @@ namespace tycoon
         List<Customer> customers;
         List< List<GameItem>>orderHistory = new List< List<GameItem>>();
         List<GameItem> order = new List<GameItem> ();
+        public int secondsPerDay = 240;
+        public double timeElapsed;
+        public double timeLast;
+        public double lossFromExpired= 0;
 
         public double inventoryUpgradeCost = 50;
         public double customerUpgradeCost = 50;
@@ -47,8 +48,8 @@ namespace tycoon
         public float customerUpgradeFactor = -.01f;
         public double operatingUpgradeFactor = 50;
 
-        int day { get; set; }
-        int hour { get; set; }
+        public int day { get; set; }
+        public int hour { get; set; }
 
         public string storeName;
         //default opening closing hours
@@ -204,6 +205,55 @@ namespace tycoon
             int id = itemType.getItemID();
             return inventory[id].Count;
         }
+        public void addExpiration()
+        {
+            for(int i = 0; i < inventory.Length;i++)
+            {
+                if(inventory[i] != null)
+                {
+                    for(int j = 0; j < inventory[i].Count;j++)
+                    {
+                        foreach(GameItem item in inventory[i])
+                        {
+                            item.decrementExpiration();
+                        }
+                    }
+                }
+            }
+            
+        }
+        public void removeExpired()
+        {
+            for (int i = 0; i < inventory.Length; i++)
+            {
+                if (inventory[i] != null)
+                {
+                    for (int j = 0; j < inventory[i].Count; j++)
+                    {
+                        foreach (GameItem item in inventory[i])
+                        {
+                            if(item.getExpiration() <= 0)
+                            {
+                                lossFromExpired += item.getBuyPrice();
+                                deleteItem(item);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        public void setItemPrice(int id, double price)
+        {
+            if(inventory[id] != null)
+            {
+                foreach(GameItem item in inventory[id])
+                {
+                    item.setSellPrice(price);
+                }
+            }
+        }
+
     }
 }
 
