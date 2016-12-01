@@ -38,6 +38,7 @@ namespace tycoon
         public int secondsPerDay = 240;
         public double timeElapsed;
         public double timeLast;
+        public double lossFromExpired= 0;
 
         public double inventoryUpgradeCost = 50;
         public double customerUpgradeCost = 50;
@@ -204,6 +205,55 @@ namespace tycoon
             int id = itemType.getItemID();
             return inventory[id].Count;
         }
+        public void addExpiration()
+        {
+            for(int i = 0; i < inventory.Length;i++)
+            {
+                if(inventory[i] != null)
+                {
+                    for(int j = 0; j < inventory[i].Count;j++)
+                    {
+                        foreach(GameItem item in inventory[i])
+                        {
+                            item.decrementExpiration();
+                        }
+                    }
+                }
+            }
+            
+        }
+        public void removeExpired()
+        {
+            for (int i = 0; i < inventory.Length; i++)
+            {
+                if (inventory[i] != null)
+                {
+                    for (int j = 0; j < inventory[i].Count; j++)
+                    {
+                        foreach (GameItem item in inventory[i])
+                        {
+                            if(item.getExpiration() <= 0)
+                            {
+                                lossFromExpired += item.getBuyPrice();
+                                deleteItem(item);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        public void setItemPrice(int id, double price)
+        {
+            if(inventory[id] != null)
+            {
+                foreach(GameItem item in inventory[id])
+                {
+                    item.setSellPrice(price);
+                }
+            }
+        }
+
     }
 }
 
