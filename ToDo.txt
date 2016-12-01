@@ -4,7 +4,7 @@ Note: if it needs backend, it also needs to be associated in Unity as a componen
 	MainPanel
 	x	get corner money text to update
 		display graphics
-	x	display time - UI
+	-	display time - UI - need to attach to backend
 		time function to update UI - backend
 
 	ManagePanel
@@ -15,7 +15,7 @@ Note: if it needs backend, it also needs to be associated in Unity as a componen
 		upgrades? - backend
 	x	create finances button
 		get Finances button working
-		change store name
+	-	change store name - need to attach to backend
 
 		Finances Dim
 		x	moved from MainPanel to ManagePanel
@@ -29,6 +29,7 @@ Note: if it needs backend, it also needs to be associated in Unity as a componen
 		be able to remove an item
 		display button color based on freshness of that item
 		update text in scroll lists
+		add ability to set sale price
 
 	StartScreen
 		initialize a game
@@ -36,4 +37,4 @@ Note: if it needs backend, it also needs to be associated in Unity as a componen
 	OptionPanel
 	x	leaderboard takes you to URL
 		implement save game
-		toggle sound
+	x	toggle sound
