@@ -1,9 +1,11 @@
 ﻿using System.Collections;
+using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace tycoon
 {
-    public class Player
+    public class Player:MonoBehaviour
     {
         SimState simState; 
         public Player() {
@@ -13,13 +15,14 @@ namespace tycoon
                 inventory[i] = new List<GameItem>();
             }
             customers = new List<Customer>();
+            money = 100;
 
             // set default values for all item types
-            GameItem.Items[] values = (GameItem.Items[])System.Enum.GetValues(typeof(GameItem.Items));
-            for(int i = 0; i < 25; i++)
-            {
+            //GameItem.Items[] values = (GameItem.Items[])System.Enum.GetValues(typeof(GameItem.Items));
+            //for(int i = 0; i < 25; i++)
+            //{
 
-            }
+            //}
         }
 
         /*if(Time.time - last >= timePerHour)
@@ -68,6 +71,7 @@ namespace tycoon
         // adds a specific item to the correct item list
         public void addItem(GameItem item)
         {
+            print("add item");
             int itemID = item.getItemID();
             if (getInventorySize() >= invCapacity)
                 return;
