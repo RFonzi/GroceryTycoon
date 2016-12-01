@@ -12,9 +12,6 @@ namespace tycoon
                 inventory[i] = new List<GameItem>();
             }
             customers = new List<Customer>();
-
-            day = 0;
-            hour = 0;
         }
 
         /*if(Time.time - last >= timePerHour)
@@ -38,6 +35,9 @@ namespace tycoon
         List<Customer> customers;
         List< List<GameItem>>orderHistory = new List< List<GameItem>>();
         List<GameItem> order = new List<GameItem> ();
+        public int secondsPerDay = 240;
+        public double timeElapsed;
+        public double timeLast;
 
         public double inventoryUpgradeCost = 50;
         public double customerUpgradeCost = 50;
@@ -47,8 +47,8 @@ namespace tycoon
         public float customerUpgradeFactor = -.01f;
         public double operatingUpgradeFactor = 50;
 
-        int day { get; set; }
-        int hour { get; set; }
+        public int day { get; set; }
+        public int hour { get; set; }
 
         public string storeName;
         //default opening closing hours
