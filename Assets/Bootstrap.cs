@@ -8,6 +8,7 @@ namespace tycoon {
     public class Bootstrap : MonoBehaviour {
         public static Simulation sim;
         SimState simState = SimState.Instance;
+        public Player player;
 
         public void Update() {
             float currentTime = Time.time;
@@ -88,6 +89,7 @@ namespace tycoon {
 
         public void Start() {
              simState.sim = new Simulation();
+            simState.player = new Player();
 
             /*
             int counter = 0;
