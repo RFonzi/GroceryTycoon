@@ -26,7 +26,7 @@ namespace tycoon
             player = new Player();
             fin = new financial();
             customerList = new List<Customer>();
-            timeBetweenCustomers = 2;
+            timeBetweenCustomers = 5;
             customerCount = 0;
 
         }
