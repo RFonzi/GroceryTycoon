@@ -29,6 +29,7 @@ namespace tycoon {
                 else
                 {
                     sim.player.day++;
+                    sim.player.addExpiration();
                     sim.player.hour = 0;
                     sim.player.subtractMoney(sim.player.operatingCost);
                 }
