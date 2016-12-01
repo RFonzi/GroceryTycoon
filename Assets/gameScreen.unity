@@ -713,7 +713,7 @@ GameObject:
   - 222: {fileID: 20092708}
   - 114: {fileID: 20092707}
   m_Layer: 5
-  m_Name: Text (24)
+  m_Name: cost24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1550,7 +1550,7 @@ GameObject:
   - 222: {fileID: 44408270}
   - 114: {fileID: 44408269}
   m_Layer: 5
-  m_Name: Text (2)
+  m_Name: cost2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2127,6 +2127,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &72968788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2482,7 +2507,7 @@ GameObject:
   - 222: {fileID: 99477897}
   - 114: {fileID: 99477896}
   m_Layer: 5
-  m_Name: Text (19)
+  m_Name: cost19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3344,6 +3369,31 @@ MonoBehaviour:
   order22: {fileID: 459234105}
   order23: {fileID: 30825396}
   order24: {fileID: 1132973247}
+  cost: {fileID: 1839412087}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!1 &136496731
 GameObject:
   m_ObjectHideFlags: 0
@@ -5111,7 +5161,7 @@ GameObject:
   - 222: {fileID: 180908874}
   - 114: {fileID: 180908873}
   m_Layer: 5
-  m_Name: Text (17)
+  m_Name: cost17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5773,7 +5823,7 @@ GameObject:
   - 222: {fileID: 220981704}
   - 114: {fileID: 220981703}
   m_Layer: 5
-  m_Name: Text (8)
+  m_Name: cost8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7563,7 +7613,7 @@ GameObject:
   - 222: {fileID: 331174928}
   - 114: {fileID: 331174927}
   m_Layer: 5
-  m_Name: Text (3)
+  m_Name: cost3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8096,10 +8146,10 @@ RectTransform:
   - {fileID: 20092706}
   m_Father: {fileID: 1023491249}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 524.4228, y: -829.5}
+  m_SizeDelta: {x: 51.1545, y: 1659}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &348594164
 MonoBehaviour:
@@ -9854,6 +9904,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &410672907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10094,6 +10169,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &430471420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10335,7 +10435,7 @@ GameObject:
   - 222: {fileID: 437724067}
   - 114: {fileID: 437724066}
   m_Layer: 5
-  m_Name: Text (22)
+  m_Name: cost22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13031,6 +13131,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &575372144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14080,6 +14205,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &627914133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14482,6 +14632,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &639621843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14589,7 +14764,7 @@ GameObject:
   - 222: {fileID: 642039995}
   - 114: {fileID: 642039994}
   m_Layer: 5
-  m_Name: Text (18)
+  m_Name: cost18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15562,6 +15737,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &663371655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16320,6 +16520,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &688217287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16427,7 +16652,7 @@ GameObject:
   - 222: {fileID: 689290951}
   - 114: {fileID: 689290950}
   m_Layer: 5
-  m_Name: Text (15)
+  m_Name: cost15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16733,7 +16958,7 @@ GameObject:
   - 222: {fileID: 701819489}
   - 114: {fileID: 701819488}
   m_Layer: 5
-  m_Name: Text (14)
+  m_Name: cost14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17068,6 +17293,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &709376221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17765,6 +18015,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &729176219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18349,7 +18624,7 @@ GameObject:
   - 222: {fileID: 753157186}
   - 114: {fileID: 753157185}
   m_Layer: 5
-  m_Name: Text (4)
+  m_Name: cost4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19715,6 +19990,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &788758930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21212,6 +21512,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &865864071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21751,6 +22076,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &881808660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23322,6 +23672,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &973690100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24194,7 +24569,7 @@ GameObject:
   - 222: {fileID: 1022171900}
   - 114: {fileID: 1022171899}
   m_Layer: 5
-  m_Name: Text (23)
+  m_Name: cost23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25515,7 +25890,7 @@ GameObject:
   - 222: {fileID: 1079983607}
   - 114: {fileID: 1079983606}
   m_Layer: 5
-  m_Name: Text (9)
+  m_Name: cost9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26506,7 +26881,7 @@ GameObject:
   - 222: {fileID: 1138679523}
   - 114: {fileID: 1138679522}
   m_Layer: 5
-  m_Name: Text (16)
+  m_Name: cost16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26654,7 +27029,7 @@ GameObject:
   - 222: {fileID: 1142753203}
   - 114: {fileID: 1142753202}
   m_Layer: 5
-  m_Name: Text (21)
+  m_Name: cost21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28022,10 +28397,10 @@ RectTransform:
   - {fileID: 655322184}
   m_Father: {fileID: 1796515052}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 465.047, y: -829.5}
+  m_SizeDelta: {x: 169.90602, y: 1659}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195543300
 MonoBehaviour:
@@ -28104,7 +28479,7 @@ GameObject:
   - 222: {fileID: 1197132390}
   - 114: {fileID: 1197132389}
   m_Layer: 5
-  m_Name: Text (6)
+  m_Name: cost6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28517,6 +28892,7 @@ GameObject:
   - 114: {fileID: 1210453684}
   - 114: {fileID: 1210453686}
   - 114: {fileID: 1210453687}
+  - 114: {fileID: 1210453688}
   m_Layer: 5
   m_Name: InventoryPanel
   m_TagString: Untagged
@@ -28603,6 +28979,81 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isImgOn: 0
   obj: {fileID: 1210453682}
+--- !u!114 &1210453688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1210453682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb708d7a88fbbc4d8ff3aa46aebef0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemHeader: {fileID: 0}
+  buttonText: {fileID: 0}
+  prefabItemText: {fileID: 0}
+  prefabButton: {fileID: 0}
+  playerMoneyText: {fileID: 0}
+  netWorthDub: {fileID: 0}
+  profitDub: {fileID: 0}
+  lossDub: {fileID: 0}
+  ParentPanel: {fileID: 0}
+  audio: {fileID: 0}
+  quanText: {fileID: 0}
+  quanText1: {fileID: 0}
+  quanText2: {fileID: 0}
+  quanText3: {fileID: 0}
+  order: {fileID: 1369668383}
+  order1: {fileID: 1431285764}
+  order2: {fileID: 583249856}
+  order3: {fileID: 153675742}
+  order4: {fileID: 667846778}
+  order5: {fileID: 1981734102}
+  order6: {fileID: 1030769240}
+  order7: {fileID: 1331932099}
+  order8: {fileID: 784671754}
+  order9: {fileID: 378936055}
+  order10: {fileID: 1191326486}
+  order11: {fileID: 1291182911}
+  order12: {fileID: 14186392}
+  order13: {fileID: 865303238}
+  order14: {fileID: 2110948155}
+  order15: {fileID: 754486330}
+  order16: {fileID: 1818175746}
+  order17: {fileID: 2033436716}
+  order18: {fileID: 838987896}
+  order19: {fileID: 727905521}
+  order20: {fileID: 8824270}
+  order21: {fileID: 714710496}
+  order22: {fileID: 459234105}
+  order23: {fileID: 30825396}
+  order24: {fileID: 1132973247}
+  cost: {fileID: 1839412087}
+  cost1: {fileID: 1676170889}
+  cost2: {fileID: 44408267}
+  cost3: {fileID: 331174925}
+  cost4: {fileID: 753157183}
+  cost5: {fileID: 2127822817}
+  cost6: {fileID: 1197132387}
+  cost7: {fileID: 2134379469}
+  cost8: {fileID: 220981701}
+  cost9: {fileID: 1079983604}
+  cost10: {fileID: 1597828301}
+  cost11: {fileID: 1362393775}
+  cost12: {fileID: 1439894863}
+  cost13: {fileID: 1624241768}
+  cost14: {fileID: 701819486}
+  cost15: {fileID: 689290948}
+  cost16: {fileID: 1138679520}
+  cost17: {fileID: 180908871}
+  cost18: {fileID: 642039992}
+  cost19: {fileID: 99477894}
+  cost20: {fileID: 1359158157}
+  cost21: {fileID: 1142753200}
+  cost22: {fileID: 437724064}
+  cost23: {fileID: 1022171897}
+  cost24: {fileID: 20092705}
 --- !u!1 &1211821484
 GameObject:
   m_ObjectHideFlags: 0
@@ -28769,6 +29220,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &1215862352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30500,6 +30976,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &1288241110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31415,6 +31916,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &1319418693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31599,6 +32125,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &1321899228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32306,7 +32857,7 @@ GameObject:
   - 222: {fileID: 1359158160}
   - 114: {fileID: 1359158159}
   m_Layer: 5
-  m_Name: Text (20)
+  m_Name: cost20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32380,7 +32931,7 @@ GameObject:
   - 222: {fileID: 1362393778}
   - 114: {fileID: 1362393777}
   m_Layer: 5
-  m_Name: Text (11)
+  m_Name: cost11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33644,7 +34195,7 @@ GameObject:
   - 222: {fileID: 1439894866}
   - 114: {fileID: 1439894865}
   m_Layer: 5
-  m_Name: Text (12)
+  m_Name: cost12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35016,6 +35567,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &1518641712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35575,6 +36151,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &1563602725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36426,7 +37027,7 @@ GameObject:
   - 222: {fileID: 1597828304}
   - 114: {fileID: 1597828303}
   m_Layer: 5
-  m_Name: Text (10)
+  m_Name: cost10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36577,6 +37178,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &1597838797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37333,6 +37959,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &1622865142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37440,7 +38091,7 @@ GameObject:
   - 222: {fileID: 1624241771}
   - 114: {fileID: 1624241770}
   m_Layer: 5
-  m_Name: Text (13)
+  m_Name: cost13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38252,7 +38903,7 @@ GameObject:
   - 222: {fileID: 1676170892}
   - 114: {fileID: 1676170891}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: cost1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40462,6 +41113,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &1796684913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41310,7 +41986,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.2251, y: 7.5549}
+  m_AnchoredPosition: {x: 0.000061034996, y: 7.554886}
   m_SizeDelta: {x: -301.01, y: -476.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1833385209
@@ -41625,7 +42301,7 @@ GameObject:
   - 222: {fileID: 1839412090}
   - 114: {fileID: 1839412089}
   m_Layer: 5
-  m_Name: Text
+  m_Name: cost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44473,6 +45149,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!1 &2015556472
 GameObject:
   m_ObjectHideFlags: 0
@@ -45522,6 +46223,31 @@ MonoBehaviour:
   order22: {fileID: 0}
   order23: {fileID: 0}
   order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!114 &2077112062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46504,7 +47230,7 @@ GameObject:
   - 222: {fileID: 2127822820}
   - 114: {fileID: 2127822819}
   m_Layer: 5
-  m_Name: Text (5)
+  m_Name: cost5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46656,7 +47382,7 @@ GameObject:
   - 222: {fileID: 2134379472}
   - 114: {fileID: 2134379471}
   m_Layer: 5
-  m_Name: Text (7)
+  m_Name: cost7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
