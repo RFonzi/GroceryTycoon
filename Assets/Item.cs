@@ -17,6 +17,7 @@ namespace tycoon
         public GameObject lossDub;
         public RectTransform ParentPanel;
         SimState simState = SimState.Instance; // returns instance of the SimState simulation that I want.
+        public AudioSource audio;
 
         public GameObject quanText;
         public GameObject quanText1;
@@ -50,6 +51,14 @@ namespace tycoon
             // show quantities in InventoryPanel
             // quanText.GetComponent<Text>().text = simState.gameItem.getQuantity.ToString; // needs a method from backend
 
+        }
+
+        public void mute()
+        {
+            if (audio.mute)
+                audio.mute = false;
+            else
+                audio.mute = true;
         }
 
         // need to change from .getMoney() to appropriate implemented methods
