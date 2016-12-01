@@ -11,6 +11,7 @@ namespace tycoon
         private SimState() { }
 
         public Simulation sim;
+        public Player player;
         //public GameItem gameItem;
 
         public static SimState Instance
@@ -20,10 +21,12 @@ namespace tycoon
                 if (instance == null)
                 {
                     instance = new SimState();
+
                  
                 }
                 return instance;
             }
         }
+
     }
 }
