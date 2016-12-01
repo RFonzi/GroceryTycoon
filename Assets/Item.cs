@@ -29,6 +29,26 @@ namespace tycoon
         public GameObject order2;
         public GameObject order3;
         public GameObject order4;
+        public GameObject order5;
+        public GameObject order6;
+        public GameObject order7;
+        public GameObject order8;
+        public GameObject order9;
+        public GameObject order10;
+        public GameObject order11;
+        public GameObject order12;
+        public GameObject order13;
+        public GameObject order14;
+        public GameObject order15;
+        public GameObject order16;
+        public GameObject order17;
+        public GameObject order18;
+        public GameObject order19;
+        public GameObject order20;
+        public GameObject order21;
+        public GameObject order22;
+        public GameObject order23;
+        public GameObject order24;
 
 
         // Use this for initialization
@@ -115,17 +135,383 @@ namespace tycoon
             int total = 0;
             GameItem.Items item;
 
-            if (order1.GetComponent<Text>().text != null)
+            // apples
+            var b = order.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
             {
-                total = int.Parse(order1.GetComponent<Text>().text); // convert input text to int
-                item = GameItem.Items.Bananas;
-                GameItem produce = new GameItem((int)item);
+                total = int.Parse(b); // convert input text to int
+                print("The total for Apples is " + total);
+                item = GameItem.Items.Apples;
 
                 for (i = 0; i < total; i++)
                 {
+                    GameItem produce = new GameItem((int)item);
                     simState.sim.player.addItem(produce);
                 }
             }
+
+            // bananas
+            b = order1.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Bananas;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // grapes
+            b = order2.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Grapes;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // oranges
+            b = order3.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Oranges;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // tomatoes
+            b = order4.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Tomatoes;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // potatoes
+            b = order5.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Potatoes;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // asparagus
+            b = order6.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Asparagus;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // corn
+            b = order7.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Corn;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // zucchini
+            b = order8.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Zucchini;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // carrots
+            b = order9.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Carrots;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // chicken
+            b = order10.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Chicken;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // beef
+            b = order11.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Beef;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // pork
+            b = order12.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Pork;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // eggs
+            b = order13.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Eggs;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // fish
+            b = order14.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Fish;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // pasta
+            b = order15.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Pasta;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // cereal
+            b = order16.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Cereal;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // bread
+            b = order17.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Bread;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // cookies
+            b = order18.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Cookies;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // tortillas
+            b = order19.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Tortillas;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // water
+            b = order20.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Water;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // orange juice
+            b = order21.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Orange_Juice;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // beer
+            b = order22.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Beer;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // coffee
+            b = order23.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Coffee;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+            // milk
+            b = order24.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Milk;
+
+                for (i = 0; i < total; i++)
+                {
+                    GameItem produce = new GameItem((int)item);
+                    simState.sim.player.addItem(produce);
+                }
+            }
+
+
         }
 
 
@@ -133,6 +519,7 @@ namespace tycoon
         {
             GameItem.Items item;
 
+            // bananas
             item = GameItem.Items.Bananas;
             GameItem produce = new GameItem((int)item);
             quanText1.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();

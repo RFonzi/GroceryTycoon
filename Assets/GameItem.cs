@@ -9,9 +9,9 @@ namespace tycoon {
     {
         public enum Items
         {
-            Apples, Bananas, Grapes, Oranges, Tomatoes, Potatoes, Asparagus, Corn, Zukkini,
-            Carrots, Water, Orange_Juice, Beer, Wine, Apple_Juice, Chicken, Beef, Pork, Eggs,
-            Fish, Pasta, Cereal, Bread, Tortilla, Cookies
+            Apples, Bananas, Grapes, Oranges, Tomatoes, Potatoes, Asparagus, Corn, Zucchini,
+            Carrots, Water, Orange_Juice, Beer, Coffee, Milk, Chicken, Beef, Pork, Eggs,
+            Fish, Pasta, Cereal, Bread, Tortillas, Cookies
         }
 
         double buyPrice;
@@ -44,7 +44,7 @@ namespace tycoon {
                     expiration = 14;
                     basePrice = 1.50;
                     break;
-                case Items.Apple_Juice:
+                case Items.Coffee:
                     buyPrice = 3.00;
                     expiration = 7;
                     basePrice = 3.00;
@@ -144,7 +144,7 @@ namespace tycoon {
                     expiration = 20;
                     basePrice = 1.40;
                     break;
-                case Items.Tortilla:
+                case Items.Tortillas:
                     buyPrice = 3.00;
                     expiration = 18;
                     basePrice = 3.00;
@@ -154,12 +154,12 @@ namespace tycoon {
                     expiration = 100;
                     basePrice = 2.00;
                     break;
-                case Items.Wine:
+                case Items.Milk:
                     buyPrice = 8.00;
                     expiration = 80;
                     basePrice = 8.00;
                     break;
-                case Items.Zukkini:
+                case Items.Zucchini:
                     buyPrice = 2.00;
                     expiration = 30;
                     basePrice = 2.00;
