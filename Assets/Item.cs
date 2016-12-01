@@ -131,8 +131,7 @@ namespace tycoon
             int i = 0;
             int total = 0;
             GameItem.Items item;
-
-<<<<<<< HEAD
+            
             // apples
             var b = order.GetComponent<InputField>().text;
             print(b.ToString());
@@ -155,16 +154,10 @@ namespace tycoon
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
-=======
-            if (order1.GetComponent<InputField>().text != null)
-            {
-                total = int.Parse(order1.GetComponent<InputField>().text); // convert input text to int
->>>>>>> 805fe0cd574dae132cdefb5b63f4069554031951
                 item = GameItem.Items.Bananas;
 
                 for (i = 0; i < total; i++)
                 {
-<<<<<<< HEAD
                     GameItem produce = new GameItem((int)item);
                     simState.sim.player.addItem(produce);
                 }
@@ -346,13 +339,11 @@ namespace tycoon
                 for (i = 0; i < total; i++)
                 {
                     GameItem produce = new GameItem((int)item);
-=======
                     if(produce == null)
                     {
                         print("null produce");
                     }
 
->>>>>>> 805fe0cd574dae132cdefb5b63f4069554031951
                     simState.sim.player.addItem(produce);
                 }
             }
