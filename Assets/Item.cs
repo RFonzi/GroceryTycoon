@@ -50,6 +50,32 @@ namespace tycoon
         public GameObject order23;
         public GameObject order24;
 
+        public GameObject cost;
+        public GameObject cost1;
+        public GameObject cost2;
+        public GameObject cost3;
+        public GameObject cost4;
+        public GameObject cost5;
+        public GameObject cost6;
+        public GameObject cost7;
+        public GameObject cost8;
+        public GameObject cost9;
+        public GameObject cost10;
+        public GameObject cost11;
+        public GameObject cost12;
+        public GameObject cost13;
+        public GameObject cost14;
+        public GameObject cost15;
+        public GameObject cost16;
+        public GameObject cost17;
+        public GameObject cost18;
+        public GameObject cost19;
+        public GameObject cost20;
+        public GameObject cost21;
+        public GameObject cost22;
+        public GameObject cost23;
+        public GameObject cost24;
+
 
         // Use this for initialization
         void Start()
@@ -74,6 +100,7 @@ namespace tycoon
             // show quantities in InventoryPanel
             // quanText.GetComponent<Text>().text = simState.gameItem.getQuantity.ToString; // needs a method from backend
 
+            showCost();
         }
 
         public void mute()
@@ -108,28 +135,373 @@ namespace tycoon
 
         }
 
-        // takes all user inputs from order screen and adds those items to their inventory
-        /*public void placeOrder()
-        {
-            //int i = 0;
-            //int total = 0;
-            //GameItem.Items item;
-            //if (order1.GetComponent<Text>().text != null)
-            //{
-            //    total = int.Parse(order1.GetComponent<Text>().text); // convert input text to int
-            //    item = GameItem.Items.Bananas;
-            //    GameItem produce = new GameItem((int)item);
-            //    for (i = 0; i < total; i++)
-            //    {
-            //        simState.sim.player.addItem(produce);
-            //    }
-            //}
-        }*/
 
+        // display cost on Create Order panel
+        public void showCost()
+        {
+
+            int total = 0;
+            double price = 0.00;
+            GameItem.Items item;
+
+            // apples
+            var b = order.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Apples;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // bananas
+            b = order1.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Bananas;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost1.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // grapes
+            b = order2.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Grapes;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost2.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // oranges
+            b = order3.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Oranges;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost3.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // tomatoes
+            b = order4.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Tomatoes;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost4.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // potatoes
+            b = order5.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Potatoes;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost5.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // asparagus
+            b = order6.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Asparagus;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost6.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // corn
+            b = order7.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Corn;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost7.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // zucchini
+            b = order8.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Zucchini;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost8.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // carrots
+            b = order9.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Carrots;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost9.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // chicken
+            b = order10.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Chicken;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost10.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // beef
+            b = order11.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Beef;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost11.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // pork
+            b = order12.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Pork;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost12.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // eggs
+            b = order13.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Eggs;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost13.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // fish
+            b = order14.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Fish;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost14.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // pasta
+            b = order15.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Pasta;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost15.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // cereal
+            b = order16.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Cereal;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost16.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // bread
+            b = order17.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Bread;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost17.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // cookies
+            b = order18.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Cookies;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost18.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // tortillas
+            b = order19.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Tortillas;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost19.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // water
+            b = order20.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Water;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost20.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // orange juice
+            b = order21.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Orange_Juice;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost21.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // beer
+            b = order22.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Beer;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost22.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // coffee
+            b = order23.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Coffee;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost23.GetComponent<Text>().text = (total * price).ToString();
+            }
+
+            // milk
+            b = order24.GetComponent<InputField>().text;
+            print(b.ToString());
+            if (b.Length > 0)
+            {
+                total = int.Parse(b); // convert input text to int
+                item = GameItem.Items.Milk;
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost24.GetComponent<Text>().text = (total * price).ToString();
+            }
+        }
+
+
+        // when Place Order button is clicked
         public void placeOrder()
         {
             int i = 0;
             int total = 0;
+            double price = 0.00;
             GameItem.Items item;
             
             // apples
@@ -146,6 +518,11 @@ namespace tycoon
                     GameItem produce = new GameItem((int)item);
                     simState.sim.player.addItem(produce);
                 }
+
+                // new stuff
+                GameItem pro = new GameItem((int)item);
+                price = pro.getBuyPrice();
+                cost.GetComponent<Text>().text = (total * price).ToString();
             }
 
             // bananas
