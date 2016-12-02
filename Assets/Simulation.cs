@@ -6,7 +6,7 @@ using System.Threading;
 namespace tycoon
 {
 
-
+    [System.Serializable]
     public class Simulation
     {
 

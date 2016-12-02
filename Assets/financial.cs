@@ -12,7 +12,7 @@ and then add the amount the customer paid for to that list. (THIS IS COMPLICATED
 */
 namespace tycoon
 	{
-
+        [System.Serializable]
 		public class financial
 		{
         // creates 3 columns for the data table, can add more if needed

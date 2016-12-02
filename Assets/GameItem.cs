@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 
 namespace tycoon {
+    [System.Serializable]
     public class GameItem
     {
         public enum Items
