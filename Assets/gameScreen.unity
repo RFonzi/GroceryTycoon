@@ -2102,6 +2102,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -3344,6 +3365,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 1369668383}
   order1: {fileID: 1431285764}
   order2: {fileID: 583249856}
@@ -8146,10 +8188,10 @@ RectTransform:
   - {fileID: 20092706}
   m_Father: {fileID: 1023491249}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 524.4228, y: -829.5}
-  m_SizeDelta: {x: 51.1545, y: 1659}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &348594164
 MonoBehaviour:
@@ -9879,6 +9921,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -10144,6 +10207,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -13106,6 +13190,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -14180,6 +14285,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -14607,6 +14733,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -15712,6 +15859,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -16495,6 +16663,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -17268,6 +17457,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -17990,6 +18200,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -19965,6 +20196,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -21487,6 +21739,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -22051,6 +22324,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -23647,6 +23941,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -26437,6 +26752,7 @@ GameObject:
   - 114: {fileID: 1112832669}
   - 114: {fileID: 1112832671}
   - 114: {fileID: 1112832672}
+  - 114: {fileID: 1112832673}
   m_Layer: 5
   m_Name: ManagePanel
   m_TagString: Untagged
@@ -26522,6 +26838,102 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isImgOn: 0
   obj: {fileID: 1112832667}
+--- !u!114 &1112832673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1112832667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb708d7a88fbbc4d8ff3aa46aebef0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemHeader: {fileID: 0}
+  buttonText: {fileID: 0}
+  prefabItemText: {fileID: 0}
+  prefabButton: {fileID: 0}
+  playerMoneyText: {fileID: 0}
+  netWorthDub: {fileID: 1470077969}
+  profitDub: {fileID: 541793045}
+  lossDub: {fileID: 278215628}
+  ParentPanel: {fileID: 0}
+  audio: {fileID: 0}
+  quanText: {fileID: 0}
+  quanText1: {fileID: 0}
+  quanText2: {fileID: 0}
+  quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
+  order: {fileID: 0}
+  order1: {fileID: 0}
+  order2: {fileID: 0}
+  order3: {fileID: 0}
+  order4: {fileID: 0}
+  order5: {fileID: 0}
+  order6: {fileID: 0}
+  order7: {fileID: 0}
+  order8: {fileID: 0}
+  order9: {fileID: 0}
+  order10: {fileID: 0}
+  order11: {fileID: 0}
+  order12: {fileID: 0}
+  order13: {fileID: 0}
+  order14: {fileID: 0}
+  order15: {fileID: 0}
+  order16: {fileID: 0}
+  order17: {fileID: 0}
+  order18: {fileID: 0}
+  order19: {fileID: 0}
+  order20: {fileID: 0}
+  order21: {fileID: 0}
+  order22: {fileID: 0}
+  order23: {fileID: 0}
+  order24: {fileID: 0}
+  cost: {fileID: 0}
+  cost1: {fileID: 0}
+  cost2: {fileID: 0}
+  cost3: {fileID: 0}
+  cost4: {fileID: 0}
+  cost5: {fileID: 0}
+  cost6: {fileID: 0}
+  cost7: {fileID: 0}
+  cost8: {fileID: 0}
+  cost9: {fileID: 0}
+  cost10: {fileID: 0}
+  cost11: {fileID: 0}
+  cost12: {fileID: 0}
+  cost13: {fileID: 0}
+  cost14: {fileID: 0}
+  cost15: {fileID: 0}
+  cost16: {fileID: 0}
+  cost17: {fileID: 0}
+  cost18: {fileID: 0}
+  cost19: {fileID: 0}
+  cost20: {fileID: 0}
+  cost21: {fileID: 0}
+  cost22: {fileID: 0}
+  cost23: {fileID: 0}
+  cost24: {fileID: 0}
 --- !u!1 &1127093230
 GameObject:
   m_ObjectHideFlags: 0
@@ -28397,10 +28809,10 @@ RectTransform:
   - {fileID: 655322184}
   m_Father: {fileID: 1796515052}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 465.047, y: -829.5}
-  m_SizeDelta: {x: 169.90602, y: 1659}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195543300
 MonoBehaviour:
@@ -29004,6 +29416,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 1369668383}
   order1: {fileID: 1431285764}
   order2: {fileID: 583249856}
@@ -29195,6 +29628,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -30951,6 +31405,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -31891,6 +32366,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -32100,6 +32596,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -35542,6 +36059,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -36126,6 +36664,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -37153,6 +37712,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -37934,6 +38514,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -41088,6 +41689,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -45124,6 +45746,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}
@@ -46198,6 +46841,27 @@ MonoBehaviour:
   quanText1: {fileID: 0}
   quanText2: {fileID: 0}
   quanText3: {fileID: 0}
+  quanText4: {fileID: 0}
+  quanText5: {fileID: 0}
+  quanText6: {fileID: 0}
+  quanText7: {fileID: 0}
+  quanText8: {fileID: 0}
+  quanText9: {fileID: 0}
+  quanText10: {fileID: 0}
+  quanText11: {fileID: 0}
+  quanText12: {fileID: 0}
+  quanText13: {fileID: 0}
+  quanText14: {fileID: 0}
+  quanText15: {fileID: 0}
+  quanText16: {fileID: 0}
+  quanText17: {fileID: 0}
+  quanText18: {fileID: 0}
+  quanText19: {fileID: 0}
+  quanText20: {fileID: 0}
+  quanText21: {fileID: 0}
+  quanText22: {fileID: 0}
+  quanText23: {fileID: 0}
+  quanText24: {fileID: 0}
   order: {fileID: 0}
   order1: {fileID: 0}
   order2: {fileID: 0}

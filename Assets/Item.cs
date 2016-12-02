@@ -23,6 +23,27 @@ namespace tycoon
         public GameObject quanText1;
         public GameObject quanText2;
         public GameObject quanText3;
+        public GameObject quanText4;
+        public GameObject quanText5;
+        public GameObject quanText6;
+        public GameObject quanText7;
+        public GameObject quanText8;
+        public GameObject quanText9;
+        public GameObject quanText10;
+        public GameObject quanText11;
+        public GameObject quanText12;
+        public GameObject quanText13;
+        public GameObject quanText14;
+        public GameObject quanText15;
+        public GameObject quanText16;
+        public GameObject quanText17;
+        public GameObject quanText18;
+        public GameObject quanText19;
+        public GameObject quanText20;
+        public GameObject quanText21;
+        public GameObject quanText22;
+        public GameObject quanText23;
+        public GameObject quanText24;
 
         public GameObject order;
         public GameObject order1;
@@ -97,9 +118,7 @@ namespace tycoon
             double money = 100.00;//simState.sim.player.getMoney(); // uses Singleton "SimState" class 
             //playerMoneyText.GetComponent<Text>().text = money.ToString();
 
-            // show quantities in InventoryPanel
-            // quanText.GetComponent<Text>().text = simState.gameItem.getQuantity.ToString; // needs a method from backend
-
+            //showFinances();
             showCost();
         }
 
@@ -125,7 +144,7 @@ namespace tycoon
         }
 
         // remove an item from inventory
-        public void remove(tycoon.GameItem itemType)
+        /*public void remove(tycoon.GameItem itemType)
         {
             //tycoon.Player.deleteItem(itemType);
 
@@ -133,7 +152,7 @@ namespace tycoon
 
             // if there is no value to display for the item panel, hide it. This makes a "dynamic" list
 
-        }
+        }*/
 
 
         // display cost on Create Order panel
@@ -898,10 +917,130 @@ namespace tycoon
         {
             GameItem.Items item;
 
+            // apples
+            item = GameItem.Items.Apples;
+            GameItem produce = new GameItem((int)item);
+            quanText.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
             // bananas
             item = GameItem.Items.Bananas;
-            GameItem produce = new GameItem((int)item);
+            produce = new GameItem((int)item);
             quanText1.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // grapes
+            item = GameItem.Items.Grapes;
+            produce = new GameItem((int)item);
+            quanText2.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // oranges
+            item = GameItem.Items.Oranges;
+            produce = new GameItem((int)item);
+            quanText3.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // tomatoes
+            item = GameItem.Items.Tomatoes;
+            produce = new GameItem((int)item);
+            quanText4.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // potatoes
+            item = GameItem.Items.Potatoes;
+            produce = new GameItem((int)item);
+            quanText5.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // asparagus
+            item = GameItem.Items.Asparagus;
+            produce = new GameItem((int)item);
+            quanText6.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // corn
+            item = GameItem.Items.Corn;
+            produce = new GameItem((int)item);
+            quanText7.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // zucchini
+            item = GameItem.Items.Zucchini;
+            produce = new GameItem((int)item);
+            quanText8.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // carrots
+            item = GameItem.Items.Carrots;
+            produce = new GameItem((int)item);
+            quanText9.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // chicken
+            item = GameItem.Items.Chicken;
+            produce = new GameItem((int)item);
+            quanText10.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // beef
+            item = GameItem.Items.Beef;
+            produce = new GameItem((int)item);
+            quanText11.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // pork
+            item = GameItem.Items.Pork;
+            produce = new GameItem((int)item);
+            quanText12.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // eggs
+            item = GameItem.Items.Eggs;
+            produce = new GameItem((int)item);
+            quanText13.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // fish
+            item = GameItem.Items.Fish;
+            produce = new GameItem((int)item);
+            quanText14.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // pasta
+            item = GameItem.Items.Pasta;
+            produce = new GameItem((int)item);
+            quanText15.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // cereal
+            item = GameItem.Items.Cereal;
+            produce = new GameItem((int)item);
+            quanText16.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // bread
+            item = GameItem.Items.Bread;
+            produce = new GameItem((int)item);
+            quanText17.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // cookies
+            item = GameItem.Items.Cookies;
+            produce = new GameItem((int)item);
+            quanText18.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // tortillas
+            item = GameItem.Items.Tortillas;
+            produce = new GameItem((int)item);
+            quanText19.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // water
+            item = GameItem.Items.Water;
+            produce = new GameItem((int)item);
+            quanText20.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // orange juice
+            item = GameItem.Items.Orange_Juice;
+            produce = new GameItem((int)item);
+            quanText21.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // beer
+            item = GameItem.Items.Beer;
+            produce = new GameItem((int)item);
+            quanText22.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // coffee
+            item = GameItem.Items.Coffee;
+            produce = new GameItem((int)item);
+            quanText23.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
+
+            // milk
+            item = GameItem.Items.Milk;
+            produce = new GameItem((int)item);
+            quanText24.GetComponent<Text>().text = simState.sim.player.getQuantity(produce).ToString();
         }
 
 
