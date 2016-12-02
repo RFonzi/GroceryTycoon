@@ -29,9 +29,9 @@ namespace tycoon {
             sellPrice = buyPrice; // default is same, up to player to set
         }
 
-        public void setSellPrice(double price)
+        public void setSellPrice(double mult)
         {
-            sellPrice = price;
+            sellPrice = basePrice * mult;
         }
 
         //added base price so for networth function in financial
