@@ -8,21 +8,22 @@ namespace tycoon {
     public class Bootstrap : MonoBehaviour {
         public static Simulation sim;
         SimState simState = SimState.Instance;
+        public Player player;
 
         public void Update() {
             float currentTime = Time.time;
             simState = SimState.Instance;
             if(simState == null)
             {
-                print("simstate null");
+                //print("simstate null");
             }
             if(simState.sim == null)
             {
-                print("sim null");
+               // print("sim null");
             }
             if (simState.sim.player == null)
             {
-                print("player null");
+                //print("player null");
             }
             //incase we load game and player.timelast is a really high number
             if(currentTime < simState.sim.player.timeLast)
@@ -88,6 +89,7 @@ namespace tycoon {
 
         public void Start() {
              simState.sim = new Simulation();
+            simState.player = new Player();
 
             /*
             int counter = 0;

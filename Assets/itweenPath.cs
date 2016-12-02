@@ -15,7 +15,7 @@ public class itweenPath : MonoBehaviour {
             iTween.PutOnPath(gameObject, waypointArray, currentPathPercent);
             if (gameObject.transform.position.y < deletePos)
             {
-                print("This just happened");
+                //print("This just happened");
                 Destroy(gameObject);
             }
         }

@@ -23,6 +23,7 @@ namespace tycoon
         public double timeBetweenCustomers;
 
         public Simulation() {
+
             player = new Player();
             fin = new financial();
             customerList = new List<Customer>();
