@@ -3448,7 +3448,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca82ad5ad3521946b89d460a8c62244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player:
+    operatingCost: 500
+    invCapacity: 100
+    secondsPerDay: 240
+    timeElapsed: 0
+    timeLast: 0
+    lossFromExpired: 0
+    inventoryUpgradeCost: 50
+    customerUpgradeCost: 50
+    operatingUpgradeCost: 500
+    inventoryUpgradeFactor: 10
+    customerUpgradeFactor: -0.01
+    operatingUpgradeFactor: 50
+    storeName: 
+    openingHour: 0
+    closingHour: 23
 --- !u!1 &136496731
 GameObject:
   m_ObjectHideFlags: 0
@@ -8201,10 +8216,10 @@ RectTransform:
   - {fileID: 20092706}
   m_Father: {fileID: 1023491249}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 523.27057, y: -829.5}
-  m_SizeDelta: {x: 53.45888, y: 1659}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &348594164
 MonoBehaviour:
@@ -15415,6 +15430,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 1615647809}
+        m_MethodName: saveData
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &652914905
@@ -28832,10 +28858,10 @@ RectTransform:
   - {fileID: 655322184}
   m_Father: {fileID: 1796515052}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 462.6838, y: -829.5}
-  m_SizeDelta: {x: 174.63234, y: 1659}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195543300
 MonoBehaviour:
@@ -32212,7 +32238,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.9999924, y: 45.99998}
+  m_AnchoredPosition: {x: 5.9999924, y: -61}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1308177620
@@ -32300,6 +32326,17 @@ MonoBehaviour:
         m_CallState: 1
       - m_Target: {fileID: 134782854}
         m_MethodName: Start
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1615647809}
+        m_MethodName: loadData
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
