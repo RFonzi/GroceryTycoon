@@ -65,7 +65,7 @@ namespace tycoon
         public string storeName;
         //default opening closing hours
         //24 hour clock
-        public int openingHour = 7;
+        public int openingHour = 0;
         public int closingHour = 23;
         
         // adds a specific item to the correct item list
