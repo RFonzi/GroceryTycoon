@@ -5,76 +5,97 @@ using System.Text;
 using UnityEngine;
 
 namespace tycoon {
-    class Bootstrap : MonoBehaviour {
-        Simulation sim;
+    public class Bootstrap : MonoBehaviour {
+        public static Simulation sim;
+        SimState simState = SimState.Instance;
+        public Player player;
 
         public void Update() {
-            float currentTime = Time.time;
+            //float currentTime = Time.time;
+            //simState = SimState.Instance;
+
+            //if (simState.sim.player.getMoney()< 100)
+            //{
+            //    print(simState.sim.player.getMoney());
+            //}
             
-            //incase we load game and player.timelast is a really high number
-            if(currentTime < sim.player.timeLast)
-            {
-                sim.player.timeLast = 0;
-            }
+            //if(simState == null)
+            //{
+            //    //print("simstate null");
+            //}
+            //if(simState.sim == null)
+            //{
+            //   // print("sim null");
+            //}
+            //if (simState.sim.player == null)
+            //{
+            //    //print("player null");
+            //}
+            ////incase we load game and player.timelast is a really high number
+            //if(currentTime < simState.sim.player.timeLast)
+            //{
+            //    simState.sim.player.timeLast = 0;
+            //}
 
-            //days / hours for player
-            sim.player.timeElapsed += (currentTime - sim.player.timeLast);
+            ////days / hours for player
+            //simState.sim.player.timeElapsed += (currentTime - simState.sim.player.timeLast);
 
-            if (sim.player.timeElapsed >= sim.player.secondsPerDay / 24)
-            {
-                if (sim.player.hour < 23)
-                {
-                    sim.player.hour++;
-                }
-                else
-                {
-                    sim.player.day++;
-                    sim.player.addExpiration();
-                    sim.player.removeExpired();
-                    sim.player.hour = 0;
-                    sim.player.subtractMoney(sim.player.operatingCost);
-                }
+            //if (simState.sim.player.timeElapsed >= simState.sim.player.secondsPerDay / 24)
+            //{
+            //    if (simState.sim.player.hour < 23)
+            //    {
+            //        simState.sim.player.hour++;
+            //    }
+            //    else
+            //    {
+            //        simState.sim.player.day++;
+            //        simState.sim.player.addExpiration();
+            //        simState.sim.player.removeExpired();
+            //        simState.sim.player.hour = 0;
+            //        simState.sim.player.subtractMoney(simState.sim.player.operatingCost);
+            //    }
 
-                sim.player.timeElapsed = 0;
-            }
+            //    simState.sim.player.timeElapsed = 0;
+            //}
 
-            sim.player.timeLast = currentTime;
+            //simState.sim.player.timeLast = currentTime;
 
-            //customer shopping based on store opening/closing hours
-            if (currentTime - sim.last >= sim.timeBetweenCustomers) 
-            {
-                if(sim.player.closingHour == sim.player.openingHour)
-                {
-                    sim.generateCustomer();
-                }
-                else if(sim.player.openingHour < sim.player.closingHour)
-                {
-                    if(sim.player.hour >= sim.player.openingHour && sim.player.hour <= sim.player.closingHour)
-                    {
-                        sim.generateCustomer();
-                    }
-                }
-                else 
-                {
-                    if(sim.player.hour <= sim.player.closingHour)
-                    {
-                        sim.generateCustomer();
-                    }
-                    else if(sim.player.hour >= sim.player.openingHour)
-                    {
-                        sim.generateCustomer();
-                    }
-                    else
-                    {
+            ////customer shopping based on store opening/closing hours
+            //if (currentTime - simState.sim.last >= simState.sim.timeBetweenCustomers) 
+            //{
+            //    if(simState.sim.player.closingHour == simState.sim.player.openingHour)
+            //    {
+            //        simState.sim.generateCustomer();
+            //    }
+            //    else if(simState.sim.player.openingHour < simState.sim.player.closingHour)
+            //    {
+            //        if(simState.sim.player.hour >= simState.sim.player.openingHour && simState.sim.player.hour <= simState.sim.player.closingHour)
+            //        {
+            //            simState.sim.generateCustomer();
+            //        }
+            //    }
+            //    else 
+            //    {
+            //        if(simState.sim.player.hour <= simState.sim.player.closingHour)
+            //        {
+            //            simState.sim.generateCustomer();
+            //        }
+            //        else if(simState.sim.player.hour >= simState.sim.player.openingHour)
+            //        {
+            //            simState.sim.generateCustomer();
+            //        }
+            //        else
+            //        {
 
-                    }
-                }
-                sim.last = currentTime;
-            }
+            //        }
+            //    }
+            //    simState.sim.last = currentTime;
+            //}
         }
 
         public void Start() {
-            sim = new Simulation();
+             simState.sim = new Simulation();
+            //simState.player = new Player();
 
             /*
             int counter = 0;

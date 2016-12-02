@@ -6,7 +6,7 @@ using System.Threading;
 namespace tycoon
 {
 
-
+    [System.Serializable]
     public class Simulation
     {
 
@@ -23,7 +23,9 @@ namespace tycoon
         public double timeBetweenCustomers;
 
         public Simulation() {
-            player = new Player();
+
+            if(player == null)
+                player = new Player();
             fin = new financial();
             customerList = new List<Customer>();
             timeBetweenCustomers = 5;
@@ -32,7 +34,7 @@ namespace tycoon
         }
 
 
-        void addCustomer(Customer customer)
+        public void addCustomer(Customer customer)
         {
             //sets ID for customer
             customer.ID = customerCount;
@@ -58,7 +60,7 @@ namespace tycoon
         }
 
         //removes a customer from the customer list
-        void removeCustomer(Customer customer)
+        public void removeCustomer(Customer customer)
         {
             int id = customer.ID;
 

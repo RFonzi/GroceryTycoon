@@ -1,17 +1,30 @@
 ﻿using System.Collections;
+using System;
 using System.Collections.Generic;
+using UnityEngine;
+
 
 namespace tycoon
 {
+    [System.Serializable]
     public class Player
     {
-
+        SimState simState; 
         public Player() {
+            simState = SimState.Instance;
             for (int i = 0; i < inventory.Length; i++) // initialize group
             {
                 inventory[i] = new List<GameItem>();
             }
             customers = new List<Customer>();
+            money = 1000;
+
+            // set default values for all item types
+            //GameItem.Items[] values = (GameItem.Items[])System.Enum.GetValues(typeof(GameItem.Items));
+            //for(int i = 0; i < 25; i++)
+            //{
+
+            //}
         }
 
         /*if(Time.time - last >= timePerHour)
@@ -54,12 +67,13 @@ namespace tycoon
         public string storeName;
         //default opening closing hours
         //24 hour clock
-        public int openingHour = 7;
+        public int openingHour = 0;
         public int closingHour = 23;
         
         // adds a specific item to the correct item list
         public void addItem(GameItem item)
         {
+            //print("add item");
             int itemID = item.getItemID();
             if (getInventorySize() >= invCapacity)
                 return;
@@ -191,6 +205,11 @@ namespace tycoon
         public void subtractMoney(double loss)
         {
             money -= loss;
+        }
+
+        public void addDay(int dayint)
+        {
+            day += dayint;
         }
 
         public void sellItem(GameItem item)
