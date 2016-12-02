@@ -10,7 +10,7 @@ using tycoon;
         public void saveData()
         {
             BinaryFormatter bf = new BinaryFormatter();
-            FileStream file = File.Open(Application.persistentDataPath + "/save.dat", FileMode.Open);
+            FileStream file = File.Open(Application.persistentDataPath + "/save.txt", FileMode.Create);
 
             Player data = SimState.Instance.sim.player; //REPLACE THIS WITH REAL DATA OBJECT
 
@@ -23,9 +23,9 @@ using tycoon;
             if (File.Exists(Application.persistentDataPath + "/save.dat"))
             {
                 BinaryFormatter bf = new BinaryFormatter();
-                FileStream file = File.Open(Application.persistentDataPath + "/save.dat", FileMode.Open);
+                FileStream file = File.Open(Application.persistentDataPath + "/save.txt", FileMode.Open);
 
-                Player data = (Player)bf.Deserialize(file); //REPLACE THIS WITH REAL DATA OBJECT
+                SimState.Instance.sim.player = (Player)bf.Deserialize(file); //REPLACE THIS WITH REAL DATA OBJECT
                 file.Close();
             }
         }

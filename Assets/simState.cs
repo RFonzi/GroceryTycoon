@@ -4,16 +4,15 @@ using System;
 
 namespace tycoon
 {
+    [System.Serializable]
     public class SimState
     {
         private static SimState instance;
 
-        private SimState() { }
-
         public Simulation sim;
         public Player player;
         //public GameItem gameItem;
-
+        
         public static SimState Instance
         {
             get

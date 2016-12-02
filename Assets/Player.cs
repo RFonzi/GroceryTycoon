@@ -3,9 +3,11 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 namespace tycoon
 {
-    public class Player:MonoBehaviour
+    [System.Serializable]
+    public class Player
     {
         SimState simState; 
         public Player() {
