@@ -3356,7 +3356,7 @@ MonoBehaviour:
   buttonText: {fileID: 0}
   prefabItemText: {fileID: 0}
   prefabButton: {fileID: 0}
-  playerMoneyText: {fileID: 0}
+  playerMoneyText: {fileID: 177880133}
   netWorthDub: {fileID: 0}
   profitDub: {fileID: 0}
   lossDub: {fileID: 0}
@@ -8201,10 +8201,10 @@ RectTransform:
   - {fileID: 20092706}
   m_Father: {fileID: 1023491249}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 524.5417, y: -829.5}
-  m_SizeDelta: {x: 50.916557, y: 1659}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &348594164
 MonoBehaviour:
@@ -28833,10 +28833,10 @@ RectTransform:
   - {fileID: 655322184}
   m_Father: {fileID: 1796515052}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 466.682, y: -829.5}
-  m_SizeDelta: {x: 166.636, y: 1659}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195543300
 MonoBehaviour:

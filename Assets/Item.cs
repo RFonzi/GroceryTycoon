@@ -196,8 +196,8 @@ namespace tycoon
                 simState.sim.last = currentTime;
             }
             // show available money in top-right corner of MainPanel
-            double money = 100.00;//simState.sim.player.getMoney(); // uses Singleton "SimState" class 
-            //playerMoneyText.GetComponent<Text>().text = money.ToString();
+            double money = simState.sim.player.getMoney(); // uses Singleton "SimState" class 
+            playerMoneyText.GetComponent<Text>().text = money.ToString();
 
             //showFinances();
             showCost();
