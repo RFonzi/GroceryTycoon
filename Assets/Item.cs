@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using UnityEngine.Events;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace tycoon
 {
@@ -146,7 +147,7 @@ namespace tycoon
 
             // apples
             var b = order.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -160,7 +161,7 @@ namespace tycoon
 
             // bananas
             b = order1.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -174,7 +175,7 @@ namespace tycoon
 
             // grapes
             b = order2.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -188,7 +189,7 @@ namespace tycoon
 
             // oranges
             b = order3.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -202,7 +203,7 @@ namespace tycoon
 
             // tomatoes
             b = order4.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -216,7 +217,7 @@ namespace tycoon
 
             // potatoes
             b = order5.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -230,7 +231,7 @@ namespace tycoon
 
             // asparagus
             b = order6.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -244,7 +245,7 @@ namespace tycoon
 
             // corn
             b = order7.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -258,7 +259,7 @@ namespace tycoon
 
             // zucchini
             b = order8.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -272,7 +273,7 @@ namespace tycoon
 
             // carrots
             b = order9.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -286,7 +287,7 @@ namespace tycoon
 
             // chicken
             b = order10.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -300,7 +301,7 @@ namespace tycoon
 
             // beef
             b = order11.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -314,7 +315,7 @@ namespace tycoon
 
             // pork
             b = order12.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -328,7 +329,7 @@ namespace tycoon
 
             // eggs
             b = order13.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -342,7 +343,7 @@ namespace tycoon
 
             // fish
             b = order14.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -356,7 +357,7 @@ namespace tycoon
 
             // pasta
             b = order15.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -370,7 +371,7 @@ namespace tycoon
 
             // cereal
             b = order16.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -384,7 +385,7 @@ namespace tycoon
 
             // bread
             b = order17.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -398,7 +399,7 @@ namespace tycoon
 
             // cookies
             b = order18.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -412,7 +413,7 @@ namespace tycoon
 
             // tortillas
             b = order19.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -426,7 +427,7 @@ namespace tycoon
 
             // water
             b = order20.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -440,7 +441,7 @@ namespace tycoon
 
             // orange juice
             b = order21.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -454,7 +455,7 @@ namespace tycoon
 
             // beer
             b = order22.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -468,7 +469,7 @@ namespace tycoon
 
             // coffee
             b = order23.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -482,7 +483,7 @@ namespace tycoon
 
             // milk
             b = order24.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -506,11 +507,11 @@ namespace tycoon
             
             // apples
             var b = order.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
-                print("The total for Apples is " + total);
+                ////print("The total for Apples is " + total);
                 item = GameItem.Items.Apples;
 
                 for (i = 0; i < total; i++)
@@ -527,7 +528,7 @@ namespace tycoon
 
             // bananas
             b = order1.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -542,7 +543,7 @@ namespace tycoon
 
             // grapes
             b = order2.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -557,7 +558,7 @@ namespace tycoon
 
             // oranges
             b = order3.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -572,7 +573,7 @@ namespace tycoon
 
             // tomatoes
             b = order4.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -587,7 +588,7 @@ namespace tycoon
 
             // potatoes
             b = order5.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -602,7 +603,7 @@ namespace tycoon
 
             // asparagus
             b = order6.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -617,7 +618,7 @@ namespace tycoon
 
             // corn
             b = order7.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -632,7 +633,7 @@ namespace tycoon
 
             // zucchini
             b = order8.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -647,7 +648,7 @@ namespace tycoon
 
             // carrots
             b = order9.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -662,7 +663,7 @@ namespace tycoon
 
             // chicken
             b = order10.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -677,7 +678,7 @@ namespace tycoon
 
             // beef
             b = order11.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -692,7 +693,7 @@ namespace tycoon
 
             // pork
             b = order12.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -707,7 +708,7 @@ namespace tycoon
 
             // eggs
             b = order13.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -718,7 +719,7 @@ namespace tycoon
                     GameItem produce = new GameItem((int)item);
                     if(produce == null)
                     {
-                        print("null produce");
+                        //print("null produce");
                     }
 
                     simState.sim.player.addItem(produce);
@@ -727,7 +728,7 @@ namespace tycoon
 
             // fish
             b = order14.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -742,7 +743,7 @@ namespace tycoon
 
             // pasta
             b = order15.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -757,7 +758,7 @@ namespace tycoon
 
             // cereal
             b = order16.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -772,7 +773,7 @@ namespace tycoon
 
             // bread
             b = order17.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -787,7 +788,7 @@ namespace tycoon
 
             // cookies
             b = order18.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -802,7 +803,7 @@ namespace tycoon
 
             // tortillas
             b = order19.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -817,7 +818,7 @@ namespace tycoon
 
             // water
             b = order20.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -832,7 +833,7 @@ namespace tycoon
 
             // orange juice
             b = order21.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -847,7 +848,7 @@ namespace tycoon
 
             // beer
             b = order22.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -862,7 +863,7 @@ namespace tycoon
 
             // coffee
             b = order23.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -877,7 +878,7 @@ namespace tycoon
 
             // milk
             b = order24.GetComponent<InputField>().text;
-            print(b.ToString());
+            //print(b.ToString());
             if (b.Length > 0)
             {
                 total = int.Parse(b); // convert input text to int
@@ -889,8 +890,16 @@ namespace tycoon
                     simState.sim.player.addItem(produce);
                 }
             }
+            List<GameItem>[] items = simState.sim.player.getInventory();
 
-
+            for(int k = 0; k < items.Length;k++)
+            {
+                foreach(GameItem printitem in items[k])
+                {
+                    //print(printitem.getName());
+                }
+            }
+            //print(simState.sim.player.getMoney());
         }
 
 

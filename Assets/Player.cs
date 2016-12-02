@@ -71,7 +71,7 @@ namespace tycoon
         // adds a specific item to the correct item list
         public void addItem(GameItem item)
         {
-            print("add item");
+            //print("add item");
             int itemID = item.getItemID();
             if (getInventorySize() >= invCapacity)
                 return;
