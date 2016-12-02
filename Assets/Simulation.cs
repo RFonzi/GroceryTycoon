@@ -24,7 +24,8 @@ namespace tycoon
 
         public Simulation() {
 
-            player = new Player();
+            if(player == null)
+                player = new Player();
             fin = new financial();
             customerList = new List<Customer>();
             timeBetweenCustomers = 5;
