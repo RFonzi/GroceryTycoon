@@ -20,7 +20,7 @@ using tycoon;
 
         public void loadData()
         {
-            if (File.Exists(Application.persistentDataPath + "/save.dat"))
+            if (File.Exists(Application.persistentDataPath + "/save.txt"))
             {
                 BinaryFormatter bf = new BinaryFormatter();
                 FileStream file = File.Open(Application.persistentDataPath + "/save.txt", FileMode.Open);
