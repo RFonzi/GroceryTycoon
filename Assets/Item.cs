@@ -201,6 +201,7 @@ namespace tycoon
 
             //showFinances();
             showCost();
+            showItemQuanity();
         }
 
         public void mute()
