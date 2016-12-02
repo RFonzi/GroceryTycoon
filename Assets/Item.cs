@@ -909,15 +909,15 @@ namespace tycoon
                     simState.sim.player.addItem(produce);
                 }
             }
-            List<GameItem>[] items = simState.sim.player.getInventory();
+            //List<GameItem>[] items = simState.sim.player.getInventory();
 
-            for(int k = 0; k < items.Length;k++)
-            {
-                foreach(GameItem printitem in items[k])
-                {
-                    //print(printitem.getName());
-                }
-            }
+            //for(int k = 0; k < items.Length;k++)
+            //{
+            //    foreach(GameItem printitem in items[k])
+            //    {
+            //        print(printitem.getName());
+            //    }
+            //}
             //print(simState.sim.player.getMoney());
         }
 
