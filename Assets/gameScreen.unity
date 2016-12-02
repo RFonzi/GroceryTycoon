@@ -976,7 +976,7 @@ GameObject:
   - 222: {fileID: 27545170}
   - 114: {fileID: 27545169}
   m_Layer: 5
-  m_Name: Text (14)
+  m_Name: quanText14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2799,7 +2799,7 @@ GameObject:
   - 222: {fileID: 110526422}
   - 114: {fileID: 110526421}
   m_Layer: 5
-  m_Name: Text (21)
+  m_Name: quanText21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3347,7 +3347,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 134782847}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bb708d7a88fbbc4d8ff3aa46aebef0e, type: 3}
   m_Name: 
@@ -5991,7 +5991,7 @@ Prefab:
     - target: {fileID: 224000012115236978, guid: c5fa235ca7c3b90429a592519c010da8,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 75.839096
+      value: 76.53661
       objectReference: {fileID: 0}
     - target: {fileID: 224000012115236978, guid: c5fa235ca7c3b90429a592519c010da8,
         type: 2}
@@ -6001,7 +6001,7 @@ Prefab:
     - target: {fileID: 224000012115236978, guid: c5fa235ca7c3b90429a592519c010da8,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 151.67819
+      value: 153.07323
       objectReference: {fileID: 0}
     - target: {fileID: 224000012115236978, guid: c5fa235ca7c3b90429a592519c010da8,
         type: 2}
@@ -7742,7 +7742,7 @@ GameObject:
   - 222: {fileID: 334042354}
   - 114: {fileID: 334042353}
   m_Layer: 5
-  m_Name: Text (12)
+  m_Name: quanText12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7890,7 +7890,7 @@ GameObject:
   - 222: {fileID: 343490096}
   - 114: {fileID: 343490095}
   m_Layer: 5
-  m_Name: Text (16)
+  m_Name: quanText16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8203,8 +8203,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 524.04004, y: -829.5}
-  m_SizeDelta: {x: 51.919857, y: 1659}
+  m_AnchoredPosition: {x: 523.5638, y: -829.5}
+  m_SizeDelta: {x: 52.872425, y: 1659}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &348594164
 MonoBehaviour:
@@ -8876,7 +8876,7 @@ GameObject:
   - 222: {fileID: 384395689}
   - 114: {fileID: 384395688}
   m_Layer: 5
-  m_Name: Text (20)
+  m_Name: quanText20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9417,7 +9417,7 @@ GameObject:
   - 222: {fileID: 389931466}
   - 114: {fileID: 389931465}
   m_Layer: 5
-  m_Name: Text (15)
+  m_Name: quanText15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9519,7 +9519,7 @@ GameObject:
   - 222: {fileID: 403133076}
   - 114: {fileID: 403133075}
   m_Layer: 5
-  m_Name: Text (5)
+  m_Name: quanText5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12646,7 +12646,7 @@ GameObject:
   - 222: {fileID: 542405234}
   - 114: {fileID: 542405233}
   m_Layer: 5
-  m_Name: Text (19)
+  m_Name: quanText19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13070,7 +13070,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Wholesale Club Discount
+  m_Text: Customer Time Decrease
 --- !u!222 &559645244
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15613,7 +15613,7 @@ GameObject:
   - 222: {fileID: 660562244}
   - 114: {fileID: 660562243}
   m_Layer: 5
-  m_Name: Text (22)
+  m_Name: quanText22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23363,7 +23363,7 @@ GameObject:
   - 222: {fileID: 937254023}
   - 114: {fileID: 937254022}
   m_Layer: 5
-  m_Name: Text (6)
+  m_Name: quanText6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24682,7 +24682,7 @@ GameObject:
   - 222: {fileID: 1003277086}
   - 114: {fileID: 1003277085}
   m_Layer: 5
-  m_Name: Text (8)
+  m_Name: quanText8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24834,7 +24834,7 @@ GameObject:
   - 222: {fileID: 1009097041}
   - 114: {fileID: 1009097040}
   m_Layer: 5
-  m_Name: Text (24)
+  m_Name: quanText24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28835,8 +28835,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 463.77594, y: -829.5}
-  m_SizeDelta: {x: 172.4481, y: 1659}
+  m_AnchoredPosition: {x: 464.39703, y: -829.5}
+  m_SizeDelta: {x: 171.20595, y: 1659}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195543300
 MonoBehaviour:
@@ -29063,7 +29063,7 @@ GameObject:
   - 222: {fileID: 1207309925}
   - 114: {fileID: 1207309924}
   m_Layer: 5
-  m_Name: Text (7)
+  m_Name: quanText7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29830,7 +29830,7 @@ GameObject:
   - 222: {fileID: 1222050196}
   - 114: {fileID: 1222050195}
   m_Layer: 5
-  m_Name: Text (10)
+  m_Name: quanText10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30189,7 +30189,7 @@ GameObject:
   - 222: {fileID: 1233181413}
   - 114: {fileID: 1233181412}
   m_Layer: 5
-  m_Name: Text (17)
+  m_Name: quanText17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31303,7 +31303,7 @@ GameObject:
   - 222: {fileID: 1268753033}
   - 114: {fileID: 1268753032}
   m_Layer: 5
-  m_Name: Text (23)
+  m_Name: quanText23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32116,7 +32116,7 @@ GameObject:
   - 222: {fileID: 1312609110}
   - 114: {fileID: 1312609109}
   m_Layer: 5
-  m_Name: Text (13)
+  m_Name: quanText13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38317,31 +38317,31 @@ MonoBehaviour:
   lossDub: {fileID: 0}
   ParentPanel: {fileID: 0}
   audio: {fileID: 0}
-  quanText: {fileID: 0}
-  quanText1: {fileID: 0}
-  quanText2: {fileID: 0}
-  quanText3: {fileID: 0}
-  quanText4: {fileID: 0}
-  quanText5: {fileID: 0}
-  quanText6: {fileID: 0}
-  quanText7: {fileID: 0}
-  quanText8: {fileID: 0}
-  quanText9: {fileID: 0}
-  quanText10: {fileID: 0}
-  quanText11: {fileID: 0}
-  quanText12: {fileID: 0}
-  quanText13: {fileID: 0}
-  quanText14: {fileID: 0}
-  quanText15: {fileID: 0}
-  quanText16: {fileID: 0}
-  quanText17: {fileID: 0}
-  quanText18: {fileID: 0}
-  quanText19: {fileID: 0}
-  quanText20: {fileID: 0}
-  quanText21: {fileID: 0}
-  quanText22: {fileID: 0}
-  quanText23: {fileID: 0}
-  quanText24: {fileID: 0}
+  quanText: {fileID: 1265920359}
+  quanText1: {fileID: 1302960731}
+  quanText2: {fileID: 1872285411}
+  quanText3: {fileID: 847023444}
+  quanText4: {fileID: 1162790553}
+  quanText5: {fileID: 403133073}
+  quanText6: {fileID: 937254020}
+  quanText7: {fileID: 1207309922}
+  quanText8: {fileID: 1003277083}
+  quanText9: {fileID: 1616504211}
+  quanText10: {fileID: 1222050193}
+  quanText11: {fileID: 1797450892}
+  quanText12: {fileID: 334042351}
+  quanText13: {fileID: 1312609107}
+  quanText14: {fileID: 27545167}
+  quanText15: {fileID: 389931463}
+  quanText16: {fileID: 343490093}
+  quanText17: {fileID: 1233181410}
+  quanText18: {fileID: 2094877261}
+  quanText19: {fileID: 542405231}
+  quanText20: {fileID: 384395686}
+  quanText21: {fileID: 110526419}
+  quanText22: {fileID: 660562241}
+  quanText23: {fileID: 1268753030}
+  quanText24: {fileID: 1009097038}
   order: {fileID: 1369668383}
   order1: {fileID: 1431285764}
   order2: {fileID: 583249856}
@@ -38481,7 +38481,7 @@ GameObject:
   - 222: {fileID: 1616504214}
   - 114: {fileID: 1616504213}
   m_Layer: 5
-  m_Name: Text (9)
+  m_Name: quanText9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41988,7 +41988,7 @@ GameObject:
   - 222: {fileID: 1797450895}
   - 114: {fileID: 1797450894}
   m_Layer: 5
-  m_Name: Text (11)
+  m_Name: quanText11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46062,7 +46062,7 @@ Prefab:
     - target: {fileID: 224000010971747532, guid: c34f913edf37fc24e8c05f765803b8d6,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 95.87189
+      value: 95.45509
       objectReference: {fileID: 0}
     - target: {fileID: 224000010971747532, guid: c34f913edf37fc24e8c05f765803b8d6,
         type: 2}
@@ -46072,7 +46072,7 @@ Prefab:
     - target: {fileID: 224000010971747532, guid: c34f913edf37fc24e8c05f765803b8d6,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 191.74377
+      value: 190.91019
       objectReference: {fileID: 0}
     - target: {fileID: 224000010971747532, guid: c34f913edf37fc24e8c05f765803b8d6,
         type: 2}
@@ -47556,7 +47556,7 @@ GameObject:
   - 222: {fileID: 2094877264}
   - 114: {fileID: 2094877263}
   m_Layer: 5
-  m_Name: Text (18)
+  m_Name: quanText18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
