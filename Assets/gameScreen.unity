@@ -29421,7 +29421,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1210453682}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bb708d7a88fbbc4d8ff3aa46aebef0e, type: 3}
   m_Name: 
@@ -38312,9 +38312,9 @@ MonoBehaviour:
   prefabItemText: {fileID: 0}
   prefabButton: {fileID: 0}
   playerMoneyText: {fileID: 177880133}
-  netWorthDub: {fileID: 1470077969}
-  profitDub: {fileID: 541793045}
-  lossDub: {fileID: 278215628}
+  netWorthDub: {fileID: 0}
+  profitDub: {fileID: 0}
+  lossDub: {fileID: 0}
   ParentPanel: {fileID: 0}
   audio: {fileID: 0}
   quanText: {fileID: 0}
@@ -38342,56 +38342,56 @@ MonoBehaviour:
   quanText22: {fileID: 0}
   quanText23: {fileID: 0}
   quanText24: {fileID: 0}
-  order: {fileID: 0}
-  order1: {fileID: 0}
-  order2: {fileID: 0}
-  order3: {fileID: 0}
-  order4: {fileID: 0}
-  order5: {fileID: 0}
-  order6: {fileID: 0}
-  order7: {fileID: 0}
-  order8: {fileID: 0}
-  order9: {fileID: 0}
-  order10: {fileID: 0}
-  order11: {fileID: 0}
-  order12: {fileID: 0}
-  order13: {fileID: 0}
-  order14: {fileID: 0}
-  order15: {fileID: 0}
-  order16: {fileID: 0}
-  order17: {fileID: 0}
-  order18: {fileID: 0}
-  order19: {fileID: 0}
-  order20: {fileID: 0}
-  order21: {fileID: 0}
-  order22: {fileID: 0}
-  order23: {fileID: 0}
-  order24: {fileID: 0}
-  cost: {fileID: 0}
-  cost1: {fileID: 0}
-  cost2: {fileID: 0}
-  cost3: {fileID: 0}
-  cost4: {fileID: 0}
-  cost5: {fileID: 0}
-  cost6: {fileID: 0}
-  cost7: {fileID: 0}
-  cost8: {fileID: 0}
-  cost9: {fileID: 0}
-  cost10: {fileID: 0}
-  cost11: {fileID: 0}
-  cost12: {fileID: 0}
-  cost13: {fileID: 0}
-  cost14: {fileID: 0}
-  cost15: {fileID: 0}
-  cost16: {fileID: 0}
-  cost17: {fileID: 0}
-  cost18: {fileID: 0}
-  cost19: {fileID: 0}
-  cost20: {fileID: 0}
-  cost21: {fileID: 0}
-  cost22: {fileID: 0}
-  cost23: {fileID: 0}
-  cost24: {fileID: 0}
+  order: {fileID: 1369668383}
+  order1: {fileID: 1431285764}
+  order2: {fileID: 583249856}
+  order3: {fileID: 153675742}
+  order4: {fileID: 667846778}
+  order5: {fileID: 1981734102}
+  order6: {fileID: 1030769240}
+  order7: {fileID: 1331932099}
+  order8: {fileID: 784671754}
+  order9: {fileID: 378936055}
+  order10: {fileID: 1191326486}
+  order11: {fileID: 1291182911}
+  order12: {fileID: 14186392}
+  order13: {fileID: 865303238}
+  order14: {fileID: 2110948155}
+  order15: {fileID: 754486330}
+  order16: {fileID: 1818175746}
+  order17: {fileID: 2033436716}
+  order18: {fileID: 838987896}
+  order19: {fileID: 727905521}
+  order20: {fileID: 8824270}
+  order21: {fileID: 714710496}
+  order22: {fileID: 459234105}
+  order23: {fileID: 30825396}
+  order24: {fileID: 1132973247}
+  cost: {fileID: 1839412087}
+  cost1: {fileID: 1676170889}
+  cost2: {fileID: 44408267}
+  cost3: {fileID: 331174925}
+  cost4: {fileID: 753157183}
+  cost5: {fileID: 2127822817}
+  cost6: {fileID: 1197132387}
+  cost7: {fileID: 2134379469}
+  cost8: {fileID: 220981701}
+  cost9: {fileID: 1079983604}
+  cost10: {fileID: 1597828301}
+  cost11: {fileID: 1362393775}
+  cost12: {fileID: 1439894863}
+  cost13: {fileID: 1624241768}
+  cost14: {fileID: 701819486}
+  cost15: {fileID: 689290948}
+  cost16: {fileID: 1138679520}
+  cost17: {fileID: 180908871}
+  cost18: {fileID: 642039992}
+  cost19: {fileID: 99477894}
+  cost20: {fileID: 1359158157}
+  cost21: {fileID: 1142753200}
+  cost22: {fileID: 437724064}
+  cost23: {fileID: 1022171897}
+  cost24: {fileID: 20092705}
 --- !u!1 &1615788999
 GameObject:
   m_ObjectHideFlags: 0
