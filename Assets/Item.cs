@@ -13,6 +13,7 @@ namespace tycoon
         public GameObject prefabItemText;
         public GameObject prefabButton;
         public GameObject playerMoneyText;
+        public GameObject playerDay;
         public GameObject netWorthDub;
         public GameObject profitDub;
         public GameObject lossDub;
@@ -157,6 +158,7 @@ namespace tycoon
                     simState.sim.player.removeExpired();
                     simState.sim.player.hour = 0;
                     simState.sim.player.subtractMoney(simState.sim.player.operatingCost);
+                    simState.sim.player.addDay(1);
                 }
 
                 simState.sim.player.timeElapsed = 0;
@@ -198,6 +200,10 @@ namespace tycoon
             // show available money in top-right corner of MainPanel
             double money = simState.sim.player.getMoney(); // uses Singleton "SimState" class 
             playerMoneyText.GetComponent<Text>().text = money.ToString();
+
+            //Show Date in mainpanel
+            int simDay = simState.sim.player.day;
+            playerDay.GetComponent<Text>().text = "Day " + simDay.ToString();
 
             //showFinances();
             showCost();

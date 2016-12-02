@@ -17,7 +17,7 @@ namespace tycoon
                 inventory[i] = new List<GameItem>();
             }
             customers = new List<Customer>();
-            money = 100;
+            money = 1000;
 
             // set default values for all item types
             //GameItem.Items[] values = (GameItem.Items[])System.Enum.GetValues(typeof(GameItem.Items));
@@ -205,6 +205,11 @@ namespace tycoon
         public void subtractMoney(double loss)
         {
             money -= loss;
+        }
+
+        public void addDay(int dayint)
+        {
+            day += dayint;
         }
 
         public void sellItem(GameItem item)
